@@ -15,11 +15,21 @@
         </v-text-field>
       </v-flex>
     </v-layout>
-    <v-layout justify-center row wrap>
-      <v-flex xs5 v-for="(artista, index) in filteredArtistas" :key="index">
-        <img class="icon" :src="require('../assets/ArtistasNacionales/' + artista.imagen)">
-      </v-flex>
-    </v-layout>
+    <v-carousel height="535" :cycle="false">
+      <v-carousel-item v-for="(item,name) in carousel()" :key="name">
+        <v-layout justify-center row wrap>
+          {{item.length}}
+          <v-flex xs5 v-for="artista in item" :key="artista.nombre">
+            <router-link to="/InfoArtistasInternacionales">
+              <img
+                class="icon"
+                :src="require('../assets/ArtistasInternacionales/' + artista.imagen)"
+              >
+            </router-link>
+          </v-flex>
+        </v-layout>
+      </v-carousel-item>
+    </v-carousel>
   </v-container>
 </template>
 
@@ -28,15 +38,33 @@ export default {
   data: () => ({
     links: ["Contacto", "¿Quien Somos?"],
     artistas: [],
-    searchValue: ""
+    searchValue: "",
+    numeroArtistas: 6
   }),
   methods: {
     getData() {
       fetch("Artistas.json")
         .then(json => json.json())
         .then(data => {
-          this.artistas = data.ArtistasNacionales;
+          this.artistas = data.ArtistasInternacionales;
+          this.carousel();
         });
+    },
+    carousel() {
+      let carousel = {};
+      let paginas = Math.ceil(
+        this.filteredArtistas.length / this.numeroArtistas
+      );
+      let inicio = 0;
+      let final = this.numeroArtistas;
+      for (let i = 0; i < paginas; i++) {
+        let corte = this.filteredArtistas.slice(inicio, final);
+        carousel["slider" + i] = corte;
+
+        inicio = inicio + this.numeroArtistas;
+        final = final + this.numeroArtistas;
+      }
+      return carousel;
     }
   },
   computed: {
@@ -62,8 +90,15 @@ export default {
   justify-content: center;
   margin: 10px;
 }
+.flex.xs5 {
+  text-align: center;
+}
 
 .icon {
   width: 140px;
+}
+
+.v-carousel__controls {
+  background-color: rgba(240, 248, 255, 0);
 }
 </style>

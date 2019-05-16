@@ -5,6 +5,7 @@
       "apellidos": "Rey Garcia",
       "aka": "Zatu",
       "nacimiento": "16/05/1974",
+      "muerte": "",
       "region": "Sevilla",
       "modalidad": "Mc",
       "grupo": "SFDK",
@@ -60,6 +61,7 @@
       "apellidos": "Sánchez Pérez",
       "aka": "Accion Sanchez",
       "nacimiento": "24/02/1977",
+      "muerte": "",
       "region": "Sevilla",
       "modalidad": "Dj, Productor",
       "grupo": "SFDK",
@@ -148,9 +150,11 @@
       "apellidos": "",
       "aka": "SFDK",
       "nacimiento": "1993",
+      "muerte": "",
       "region": "Sevilla",
       "modalidad": "Grupo",
       "grupo": "SFDK",
+      "miembros": ["Zatu", "Accion Sanchez"],
       "carta": "CartaSFDK.png",
       "imagen": "SFDK.png",
       "trayectoria": {
@@ -184,6 +188,7 @@
       "apellidos": "González Rodríguez",
       "aka": "ToteKing",
       "nacimiento": "13/12/1978",
+      "muerte": "",
       "region": "Sevilla",
       "modalidad": "Mc",
       "grupo": "",
@@ -217,6 +222,7 @@
       "apellidos": "Fernández",
       "aka": "Capaz",
       "nacimiento": "07/09/1974",
+      "muerte": "",
       "region": "Bélgica",
       "modalidad": "Mc",
       "grupo": "Halando En Plata Squad",
@@ -245,13 +251,15 @@
       }
     },
     {
-      "nombre": "Mala Juntera (Acción Sánchez, Hazhe, Capaz y Zatu)",
+      "nombre": "Mala Juntera",
       "apellidos": "",
       "aka": "Mala Juntera",
       "nacimiento": "2013",
+      "muerte": "",
       "region": "Sevilla, Malaga y Zaragoza",
       "modalidad": "Grupo",
       "grupo": "Mala Jutera",
+      "miembros": ["Zatu", "Accion Sanchez", "Hazhe", "Capaz"],
       "carta": "CartaMalaJuntera.png",
       "imagen": "MalaJuntera.png",
       "trayectoria": {
@@ -263,6 +271,7 @@
       "apellidos": "Cunningham Sarabia",
       "aka": "Hazhe",
       "nacimiento": "19/08/1980",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Dj y Productor",
       "grupo": "",
@@ -328,6 +337,7 @@
       "apellidos": "Fernández",
       "aka": "Dj Nexxa",
       "nacimiento": "1990",
+      "muerte": "",
       "region": "Cádiz",
       "modalidad": "Dj",
       "grupo": "",
@@ -352,13 +362,15 @@
       }
     },
     {
-      "nombre": "Gangsta Squad (Lirico y Dj Brutal)",
+      "nombre": "Gangsta Squad",
       "apellidos": "",
       "aka": "Gangsta Squad",
       "nacimiento": "1991",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Grupo",
       "grupo": "",
+      "miembros": ["Lirico", "Dj Brutal"],
       "carta": "CartaGangstaSquad.png",
       "imagen": "GangstaSquad.png",
       "trayectoria": {
@@ -366,13 +378,15 @@
       }
     },
     {
-      "nombre": "Bufank (Sho Hai, Juez One y R de Rumba)",
+      "nombre": "Bufank",
       "apellidos": "",
       "aka": "Bufank",
       "nacimiento": "1990",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Grupo",
       "grupo": "",
+      "miembros": ["Sho Hai", "R de Rumba", "Juez One"],
       "carta": "CartaBufank.png",
       "imagen": "Bufank.png",
       "trayectoria": {
@@ -385,6 +399,7 @@
       "apellidos": "Ibarra Ramos",
       "aka": "Kase O",
       "nacimiento": "01/03/1980",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Mc",
       "grupo": "Violadores del Verso",
@@ -419,6 +434,7 @@
       "apellidos": "Gilaberte Miguel",
       "aka": "Lirico",
       "nacimiento": "25/12/1976",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Mc",
       "grupo": "Violadores del Verso",
@@ -450,6 +466,7 @@
       "apellidos": "Cuevas García",
       "aka": "R de Rumba",
       "nacimiento": "14/07/1976",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Dj y Productor",
       "grupo": "Violadores del Verso",
@@ -489,6 +506,7 @@
       "apellidos": "Rodríguez Fernández",
       "aka": "Sho Hai",
       "nacimiento": "19/02/1976",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Mc",
       "grupo": "Violadores del Verso",
@@ -522,9 +540,11 @@
       "apellidos": "",
       "aka": "Violadores del Verso",
       "nacimiento": "1997",
+      "muerte": "",
       "region": "Zaragoza",
       "modalidad": "Grupo",
       "grupo": "Violadores del Verso",
+      "miembros": ["Sho Hai", "R de Rumba", "Lirico", "Kase O"],
       "carta": "CartaVV.png",
       "imagen": "VioladoresdelVerso.png",
       "trayectoria": {
@@ -548,6 +568,7 @@
       "apellidos": "López Barreiro",
       "aka": "Ricky el Hombre Libre",
       "nacimiento": "05/12/1984",
+      "muerte": "",
       "region": "Galicia",
       "modalidad": "Mc",
       "grupo": "",
@@ -569,6 +590,7 @@
       "apellidos": "González Moreno",
       "aka": "Zenit",
       "nacimiento": "23/10/1977",
+      "muerte": "",
       "region": "Madrid",
       "modalidad": "Mc",
       "grupo": "",
@@ -596,6 +618,7 @@
       "apellidos": "Carretón",
       "aka": "Legendario",
       "nacimiento": "24/06/1981",
+      "muerte": "",
       "region": "Sevilla",
       "modalidad": "Mc",
       "grupo": "Dogma Crew",
@@ -617,19 +640,275 @@
         "2014": ["Disco “Pelotas” con Baghira"],
         "2016": ["Disco “Limonada Planet” con Puto Largo"]
       }
+    }
+  ],
+
+  "ArtistasInternacionales": [
+    {
+      "nombre": "Kendrick",
+      "apellidos": "Lamar Duckworth",
+      "aka": "Kendrick Lamar",
+      "nacimiento": "17/06/1987",
+      "muerte": "",
+      "region": "Los Angeles",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaKendrick.png",
+      "imagen": "Kendrick.png",
+      "trayectoria": {
+        "2003": ["Mixtape “Y.N.I.C.” en solitario"],
+        "2004": [],
+        "2005": ["Mixtape “Training Day” en solitario"],
+        "2006": [],
+        "2007": ["Mixtape “No Sleep 'Til NYC” en solitario"],
+        "2008": [],
+        "2009": ["Mixtape “C4” en solitario"],
+        "2010": ["Mixtape “Overly Dedicated” en solitario"],
+        "2011": ["Disco “Section.80” en solitario"],
+        "2012": ["Disco “ Good Kid, M.A.A.D. City” en solitario"],
+        "2013": [],
+        "2014": ["Mixtape “Welcome to Compton” en solitario"],
+        "2015": ["Disco “To Pimp a Butterfly” en solitario"],
+        "2016": ["Mixtape “Untitled Unmastered” en solitario"],
+        "2017": ["Disco “DAMN”"],
+        "2018": ["Banda Sonora “Black Panther: The Album” en solitario"],
+        "2019": []
+      }
     },
     {
-      "nombre": "Mala Juntera (Acción Sánchez, Hazhe, Capaz y Zatu)",
-      "apellidos": "",
-      "aka": "Mala Juntera",
-      "nacimiento": "2013",
-      "region": "Sevilla, Malaga y Zaragoza",
-      "modalidad": "Grupo",
-      "grupo": "Mala Jutera",
-      "carta": "CartaMalaJuntera.png",
-      "imagen": "MalaJuntera.png",
+      "nombre": "Paul",
+      "apellidos": "Huston",
+      "aka": "Prince Paul",
+      "nacimiento": "02/04/1967",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "Dj y Productor",
+      "grupo": "",
+      "carta": "CartaPrincePaul.png",
+      "imagen": "PrincePaul.png",
       "trayectoria": {
-        "2013": ["Disco “Cracks”", "Maxi “Flava”"]
+        "1986": ["Disco “On Fire” con Stetsasonic"],
+        "1988": ["Disco “In Full Gear” con Stetsasonic"],
+        "1991": ["Disco “Blood, Sweat & No Tears” con Stetsasonic"],
+        "1994": ["Disco “6 Feet Deep” con Gravediggaz"],
+        "1999": [
+          "Disco “A Prince Among Thieves” en solitario",
+          "Disco “So... How's Your Girl?” con Handsome Boy Modeling School"
+        ],
+        "2003": ["Disco “Politics of the Business” en solitario"],
+        "2004": ["Disco “White People” con Handsome Boy Modeling School"],
+        "2005": [
+          "Disco “Itstrumental” en solitario",
+          "Disco “Hip Hop Gold Dust ” en solitario",
+          "Disco “The Art of Picking Up Women” con The Dix"
+        ],
+        "2007": ["Disco “Turn My Teeth Up!” con Baby Elephant”"],
+        "2008": ["Disco  “Baby Loves Hip Hop Presents The Dino 5” con Dino 5"]
+      }
+    },
+    {
+      "nombre": "David",
+      "apellidos": "Brewster Jr",
+      "aka": "Dave East",
+      "nacimiento": "03/06/1988",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaDaveEast.png",
+      "imagen": "DaveEast.png",
+      "trayectoria": {
+        "2010": ["Mixtape “Change of Plans ” en solitario"],
+        "2011": [
+          "Mixtape “Insomnia” en solitario",
+          "Mixtape “American Greed” en solitario",
+          "Mixtape “Don't Sleep” en solitario"
+        ],
+        "2012": ["Mixtape “No Regrets” en solitario"],
+        "2013": ["Mixtape “Gemini” en solitario"],
+        "2014": [
+          "Mixtape “Black Rose” en solitario",
+          "Mixtape “Straight Outta Harlem” en solitario"
+        ],
+        "2015": ["Mixtape “Hate Me Now” en solitario"],
+        "2016": [
+          "Mixtape “Kairi Chanel” en solitario",
+          "EP “Born Broke Die Rich” con Kur"
+        ],
+        "2017": [
+          "Disco “Paranoia: A True Story” en solitario",
+          "Mixtape “Karma” en solitario"
+        ],
+        "2018": [
+          "Mixtape “Paranoia 2” en solitario",
+          "Mixtape “Karma 2” en solitario",
+          "Mixtape “Beloved” con Styles P"
+        ]
+      }
+    },
+    {
+      "nombre": "GangStarr",
+      "apellidos": "",
+      "aka": "GangStarr",
+      "nacimiento": "1986",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "Grupo",
+      "grupo": "",
+      "miembros": ["Guru", "Dj Premier"],
+      "carta": "CartaGangStarr.png",
+      "imagen": "GangStarr.png",
+      "trayectoria": {
+        "1989": ["Disco “No More Mr. Nice Guy”"],
+        "1991": ["Disco “Step in the Arena”"],
+        "1992": ["Disco “Daily Operation”"],
+        "1994": ["Disco “Hard to Earn”"],
+        "1998": ["Disco “Moment of Truth”"],
+        "1999": ["Recopilación “Full Clip: A Decade of Gang Starr”"],
+        "2003": ["Disco “The Ownerz”"],
+        "2006": ["Recopilación “Mass Appeal: The Best of Gang Starr”"],
+        "2011": ["Disco “Section.80”"],
+        "2012": ["Disco “ Good Kid, M.A.A.D. City”"],
+        "2013": [],
+        "2014": ["Mixtape “Welcome to Compton”"],
+        "2015": ["Disco “To Pimp a Butterfly”"],
+        "2016": ["Mixtape “Untitled Unmastered”"],
+        "2017": ["Disco “DAMN”"],
+        "2018": ["Banda Sonora “Black Panther: The Album”"],
+        "2019": []
+      }
+    },
+    {
+      "nombre": "Mysonne",
+      "apellidos": "E. Linen",
+      "aka": "Mysonne",
+      "nacimiento": "16/05/1979",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "Mc",
+      "grupo": "",
+      "miembros": [],
+      "carta": "CartaMysonne.png",
+      "imagen": "MySonne.png",
+      "trayectoria": {
+        "1989": [""],
+        "1991": [""]
+      }
+    },
+    {
+      "nombre": "Duval",
+      "apellidos": "Clear",
+      "aka": "Masta Ace",
+      "nacimiento": "04/12/1966",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaMastaAce.png",
+      "imagen": "MastaAce.png",
+      "trayectoria": {
+        "1990": ["Disco “Take a Look Around” en solitario"],
+        "1993": ["Disco “SlaughtaHouse” en solitario"],
+        "1995": ["Disco “Sittin' on Chrome” en solitario"],
+        "2001": ["Disco “Disposable Arts” en solitario"],
+        "2004": ["Disco “A Long Hot Summer” en solitario"],
+
+        "2008": ["Disco  “The Show” con eMC"],
+        "2009": ["Disco “Arts & Entertainment” con Edo G"],
+        "2012": ["Disco “MA Doom: Son of Yvonne” en solitario"],
+        "2014": ["EP “The Turning Point EP” con eMc"],
+        "2015": ["EP “The Tonite Show” con eMc"],
+        "2018": ["Disco “A Breukelen Story” con Marco Polo"]
+      }
+    },
+    {
+      "nombre": "Clive",
+      "apellidos": "Campbell",
+      "aka": "Dj Kool Herc",
+      "nacimiento": "16/04/1955",
+      "muerte": "",
+      "region": "Kingston",
+      "modalidad": "Productor",
+      "grupo": "",
+      "carta": "CartajKool.png",
+      "imagen": "DjKoolHerc.png",
+      "trayectoria": {
+        "2019": ["Disco “Last Of The Classic Beats” en solitario"]
+      }
+    },
+    {
+      "nombre": "Jermaine",
+      "apellidos": "Lamarr Cole",
+      "aka": "J. Cole",
+      "nacimiento": "28/01/1985",
+      "muerte": "",
+      "region": " Hesse",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaJCole.png",
+      "imagen": "JCole.png",
+      "trayectoria": {
+        "2011": ["Disco “Cole World: The Sideline Story” en solitario"],
+        "2012": ["Disco “Born Sinner” en solitario"],
+        "2014": ["Disco “2014 Forest Hills Drive” en solitario"],
+        "2016": ["Disco “4 Your Eyez Only” en solitario"],
+        "2018": ["Disco “KOD”"]
+      }
+    },
+    {
+      "nombre": "Christopher",
+      "apellidos": "Lee Ríos",
+      "aka": "Big Pun",
+      "nacimiento": "10/11/1971",
+      "muerte": "07/02/2000",
+      "region": "Los Angeles",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaBigPun.png",
+      "imagen": "BigPun.png",
+      "trayectoria": {
+        "1998": ["Disco “Capital Punishment” en solitario"],
+        "1999": ["Disco “Terror Squad: The Album” con Terror Squad"],
+        "2000": ["Disco “Yeeeah Baby” en solitario"],
+        "2001": ["Reedición “Endangered Species” en solitario"]
+      }
+    },
+    {
+      "nombre": "Rahzel",
+      "apellidos": "Manely Brown",
+      "aka": "Rahzel",
+      "nacimiento": "06/10/1964",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "BeatBoxer y Mc",
+      "grupo": "The Roots",
+      "carta": "CartaRahzel.png",
+      "imagen": "Rahzel.png",
+      "trayectoria": {
+        "1999": ["Disco “Make the Music 2000” en solitario"],
+        "2004": ["Disco “ Rahzel's Greatest Knock Outs” en solitario"]
+      }
+    },
+    {
+      "nombre": "William",
+      "apellidos": "Michael Griffin",
+      "aka": "Rakim",
+      "nacimiento": "28/01/1968",
+      "muerte": "",
+      "region": "Nueva York",
+      "modalidad": "Mc",
+      "grupo": "Eric B. & Rakim",
+      "carta": "CartaRakim.png",
+      "imagen": "Rakim.png",
+      "trayectoria": {
+        "1987": ["Disco “Paid in Full” con Eric B. & Rakim"],
+        "1988": ["Disco “Follow the Leader” con Eric B. & Rakim"],
+        "1990": ["Disco “Let the Rhythm Hit 'Em” con Eric B. & Rakim"],
+        "1992": ["Disco “Don't Sweat the Technique” con Eric B. & Rakim"],
+        "1997": ["Disco “The 18th Letter” en solitario"],
+        "1999": ["Disco “The Master” en solitario"],
+        "2008": ["Disco  “The Archive: Live, Lost & Found” en solitario"],
+        "2009": ["Disco “The Seventh Seal” en solitario"]
       }
     }
   ]
