@@ -1,0 +1,636 @@
+{
+  "ArtistasNacionales": [
+    {
+      "nombre": "Saturnino",
+      "apellidos": "Rey Garcia",
+      "aka": "Zatu",
+      "nacimiento": "16/05/1974",
+      "region": "Sevilla",
+      "modalidad": "Mc",
+      "grupo": "SFDK",
+      "carta": "CartaZatu.png",
+      "imagen": "Zatu.png",
+      "trayectoria": {
+        "1993": ["Maqueta “Outta Kranny” con SFDK"],
+        "1994": [],
+        "1995": ["Maqueta “Tras Mil Vueltas” con SFDK"],
+        "1996": ["Maqueta “Esto Va En Serio” con SFDK"],
+        "1997": ["Maxi “Llamalo Como Lo Quieras” con SFDK"],
+        "1998": [],
+        "1999": ["Disoo “Siempre Fuertes” con SFDK"],
+        "2000": ["Disco “Desde Los Chiqueros” con SFDK"],
+        "2001": ["Disco “995” con 995"],
+        "2002": ["Disco “995 II” con 995"],
+        "2003": ["Disco “2001 Odisea En El Lodo” con SFDK"],
+        "2004": ["Maxi “Después de...” con SFDK", "Disco “995 IV” con 995"],
+        "2005": [
+          "Disco “2005” con SFDK",
+          "Ganador 1º Edicion Red Bull Batalla de Gallos"
+        ],
+        "2006": ["Maxi “Original Rap University” con SFDK"],
+        "2007": [
+          "Disco “Los Veteranos” con SFDK",
+          "Recopilacion “Merry Christmas” con SFDK Records"
+        ],
+        "2008": ["DVD “Blackbook” con SFDK"],
+        "2009": ["Disco “Siempre Fuertes 2” con SFDK"],
+        "2010": ["Mixtape “Tesoros y Caras B” con SFDK"],
+        "2011": [
+          "Disco “Lista De Invitados” con SFDK",
+          "DVD “Siempre fuertes 2 – La Gira en Sucio” con SFDK"
+        ],
+        "2012": ["Disco “Héroes y Villaos” con Crew Cuervos"],
+        "2013": [
+          "Disco “Cracks” con Mala Juntera",
+          "Libro “Yo-Zatu y mi Sebera Fractura De Kraneo”",
+          "Recopilación “Lista de Invitados 2” con SFDK"
+        ],
+        "2014": ["Disco “Sin Miedo A Vivir” con SFDK"],
+        "2015": [],
+        "2016": [
+          "Disco “Positronics Vibes Vol.2” con Gordo Master Little Pepe y Nigasswing"
+        ],
+        "2017": [],
+        "2018": ["Disco “Redención” con SFDK"],
+        "2019": []
+      }
+    },
+    {
+      "nombre": "Oscar",
+      "apellidos": "Sánchez Pérez",
+      "aka": "Accion Sanchez",
+      "nacimiento": "24/02/1977",
+      "region": "Sevilla",
+      "modalidad": "Dj, Productor",
+      "grupo": "SFDK",
+      "carta": "CartaAccionSanchez.png",
+      "imagen": "AccionSanchez.png",
+      "trayectoria": {
+        "1995": ["Maqueta “Tras Mil Vueltas” con SFDK"],
+        "1996": ["Maqueta “Esto Va En Serio” con SFDK"],
+        "1997": ["Maxi “Llamalo Como Lo Quieras” con SFDK"],
+        "1998": [],
+        "1999": [
+          "Disoo “Siempre Fuertes” con SFDK",
+          "Maqueta “Rap de Tuneles” con Dj Zeth",
+          "Maqueta “Hispanic Causic Panic” en solitario"
+        ],
+        "2000": ["Disco “Desde Los Chiqueros” con SFDK"],
+        "2001": [],
+        "2002": ["Mixtape “Sub Urban Mix” en solitario"],
+        "2003": [
+          "Disco “2001 Odisea En El Lodo” con SFDK",
+          "Mixtape “Sub Urban Mix 2” en solitario",
+          "Vinilo de Batalla “Kung-Fú Breaks” con Jefe de la M"
+        ],
+        "2004": [
+          "Maxi “Después de...” con SFDK",
+          "Mixtape “Creador Series Vol. 1” en solitario",
+          "Mixtape “Terror en la Ciudad Vol. 1” en soltario",
+          "Vinilo de Batallas “Funk Y Breaks” con Jefe de la M"
+        ],
+        "2005": [
+          "Disco “2005” con SFDK",
+          "Mixtape “Hip Hop Classics Vol.1” en solitario",
+          "Vinilo de Batallas “Cinema Breaks” con Jefe de la M",
+          "Vinilo de Batallas “Manual Breaks Vol.1” con Jefe de la M"
+        ],
+        "2006": ["Maxi “Original Rap University” con SFDK"],
+        "2007": [
+          "Disco “Los Veteranos” con SFDK",
+          "Recopilación “Merry Christmas” con SFDK Records"
+        ],
+        "2008": [
+          "DVD “Blackbook” con SFDK",
+          "Mixtape “Hip Hop Classics Vol. 2” en solitario",
+          "Mixtape “Ol Style” en solitario"
+        ],
+        "2009": ["Disco “Siempre Fuertes 2” con SFDK"],
+        "2010": [
+          "Mixtape “Tesoros y Caras B” con SFDK",
+          "Mixtape “Dice mi colega que si quieres rollo” en solitario",
+          "Mixtape “Hip Hop Classics Vol.3” en solitario",
+          "Recopilación “The Beat Catalogo Vol.1” en solitario",
+          "Recopilación “The Beat Catalogo Vol.2” en solitario",
+          "Mixtape “Rá pal Coche Vol.1” en solitario",
+          "Mixtape “Sabor Original” en soitario",
+          "Maxi “Diás de Tormenta” con Hijo Pródigo"
+        ],
+        "2011": [
+          "Disco “Lista De Invitados” con SFDK",
+          "DVD “Siempre fuertes 2 – La Gira en Sucio” con SFDK"
+        ],
+        "2012": [],
+        "2013": [
+          "Disco “Cracks” con Mala Juntera",
+          "Recopilación “Lista de Invitados 2” con SFDK",
+          "Mixtape “After Hour Sevilla” con Dj Saot ST"
+        ],
+        "2014": ["Disco “Sin Miedo A Vivir”"],
+        "2015": [
+          "Vinilo de Batallas “Monky Breaks Vol.1” con Hazhe",
+          "Recopilación “Ritmos Ineditos Vol.1” en solitario",
+          "Recopilación “Ritmos Ineditos Vol.2” en solitario",
+          "Recopilación “Ritmos Ineditos Vol.3” en solitario",
+          "Recopilación “Ritmos Ineditos Vol.1” en solitario"
+        ],
+        "2016": ["Disco  “Meid In Espein Vol.2” con Hazhe"],
+        "2017": [],
+        "2018": [
+          "Disco “Redención”",
+          "Vinilo de Batalla “Kung-Fú Breaks Vol.2” en solitario"
+        ],
+        "2019": []
+      }
+    },
+    {
+      "nombre": "Siempre Fuertes De Konciencia",
+      "apellidos": "",
+      "aka": "SFDK",
+      "nacimiento": "1993",
+      "region": "Sevilla",
+      "modalidad": "Grupo",
+      "grupo": "SFDK",
+      "carta": "CartaSFDK.png",
+      "imagen": "SFDK.png",
+      "trayectoria": {
+        "1993": ["Maqueta “Outta Kranny”"],
+        "1995": ["Maqueta “Tras Mil Vueltas”"],
+        "1996": ["Maqueta “Esto Va En Serio”"],
+        "1997": ["Maxi “Llamalo Como Lo Quieras”"],
+        "1999": ["Disoo “Siempre Fuertes”"],
+        "2000": ["Disco “Desde Los Chiqueros”"],
+        "2003": ["Disco “2001 Odisea En El Lodo”"],
+        "2004": ["Maxi “Después de...”"],
+        "2005": ["Disco “2005”"],
+        "2006": ["Maxi “Original Rap University”"],
+        "2007": ["Disco “Los Veteranos”", "Recopilacion “Merry Christmas”"],
+        "2008": ["DVD “Blackbook”"],
+        "2009": ["Disco “Siempre Fuertes 2”"],
+        "2010": ["Mixtape “Tesoros y Caras B”"],
+        "2011": [
+          "Disco “Lista De Invitados”",
+          "DVD “Siempre fuertes 2 – La Gira en Sucio”"
+        ],
+        "2013": ["Recopilación “Lista de Invitados 2”"],
+        "2014": ["Disco “Sin Miedo A Vivir”"],
+
+        "2018": ["Disco “Redención” con SFDK"],
+        "2019": []
+      }
+    },
+    {
+      "nombre": "Manuel",
+      "apellidos": "González Rodríguez",
+      "aka": "ToteKing",
+      "nacimiento": "13/12/1978",
+      "region": "Sevilla",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaToteking.png",
+      "imagen": "Toteking.png",
+      "trayectoria": {
+        "1999": ["Disco “En pie de vuelo” con La Alta Escuela"],
+        "2001": [
+          "Maqueta “Big King XXL” en solitario",
+          "Maxi “Duermen” en solitario"
+        ],
+        "2002": [
+          "Maxi “Nada Pa Mi” con Shotta",
+          "Disco “Tu Madre es una Foca” con Shotta"
+        ],
+        "2003": ["Maxi “Matemáticas” en solitario"],
+        "2004": ["Disco “Música Para Enfermos” en solitario"],
+        "2006": ["Disco “Un Tipo Cualquiera” en solitario"],
+        "2008": ["Disco “T.O.T.E” en solitario"],
+        "2010": ["Disco  “El Lado Oscuro de Gandhi” en solitario"],
+        "2012": ["Disco “Héroes” con Shotta"],
+        "2013": ["EP “El Tratamiento Regio” en solitario"],
+        "2015": ["Disco “78” en solitario"],
+        "2016": ["EP “Tyson Pigeons” con Dheformer"],
+        "2018": ["Disco “Lebron”"],
+        "2019": []
+      }
+    },
+    {
+      "nombre": "Rafael",
+      "apellidos": "Fernández",
+      "aka": "Capaz",
+      "nacimiento": "07/09/1974",
+      "region": "Bélgica",
+      "modalidad": "Mc",
+      "grupo": "Halando En Plata Squad",
+      "carta": "CartaCapaz.png",
+      "imagen": "Capaz.png",
+      "trayectoria": {
+        "1998": ["Cassette “Sr.Narko Zerounoestilo” con Hablando en Plata"],
+        "1999": ["Cassette “Los Hombres del Hampa” con Hablando en Plata"],
+        "2000": ["Maxi “Operación Mafia Fantástica” con Hablando en Plata"],
+        "2001": ["Disco “A Sangre Fría” con Hablando en Plata"],
+        "2003": ["Disco “Supervillanos de Alquiler” con Hablando en Plata"],
+        "2006": ["Disco “La División de la Victoria” con Hablando en Plata"],
+        "2009": ["Disco “Libertad/Hombre” con Hablando en Plata"],
+        "2010": [
+          "Disco “Último Cigarro” en solitario",
+          "Mixtape “Nightmare” con Hablando en Plata",
+          "Documental “Vibraciones”"
+        ],
+        "2011": ["Disco “Historias” con Hablando en Plata"],
+        "2013": ["Disco “Cracks” con Mala Juntera"],
+        "2015": ["Disco “SuperHumano” en solitario"],
+        "2016": ["Disco Positronics Vibes Vol.2”"],
+        "2017": [],
+        "2018": ["Disco “20 Golpes”"],
+        "2019": []
+      }
+    },
+    {
+      "nombre": "Mala Juntera (Acción Sánchez, Hazhe, Capaz y Zatu)",
+      "apellidos": "",
+      "aka": "Mala Juntera",
+      "nacimiento": "2013",
+      "region": "Sevilla, Malaga y Zaragoza",
+      "modalidad": "Grupo",
+      "grupo": "Mala Jutera",
+      "carta": "CartaMalaJuntera.png",
+      "imagen": "MalaJuntera.png",
+      "trayectoria": {
+        "2013": ["Disco “Cracks”", "Maxi “Flava”"]
+      }
+    },
+    {
+      "nombre": "Eric Rafael",
+      "apellidos": "Cunningham Sarabia",
+      "aka": "Hazhe",
+      "nacimiento": "19/08/1980",
+      "region": "Zaragoza",
+      "modalidad": "Dj y Productor",
+      "grupo": "",
+      "carta": "CartaHazhe.png",
+      "imagen": "Hazhe.png",
+      "trayectoria": {
+        "1994": ["Nacimiento del grupo “P.B.S” con Erik B"],
+        "2000": ["Disco “Con el micrófono en la mano” en solitario"],
+        "2001": ["Maqueta “Desde las sombras” con Cloaka Company"],
+        "2002": [
+          "Disco “La historia más real de vuestras vidas” con Rapsusklei"
+        ],
+        "2003": [
+          "Mixtape “Agua Pura” en solitario",
+          "Disco “Verso Municcione” con Cloaka Company",
+          "Disco “Elipsis” con Rapsusklei"
+        ],
+        "2004": [
+          "EP “Creador series vol.2: Metamorfosis” en solitario",
+          "Disco “Hijos de puta para todo” con Rapsusklei"
+        ],
+
+        "2006": [
+          "Maqueta “Petróleo” en solitario",
+          "Mixtape “Veinte Minutos Mixtape Vol.1” con Fuck Tha Posse",
+          "Maxi “Hablando con Dios/Superestrella” con Gran Purisimo"
+        ],
+        "2007": [
+          "Mixtape “Recycled beats” en solitario",
+          "Maqueta “666” con Presión"
+        ],
+        "2008": [
+          "Mixtape “Mixtape Granada” en solitario",
+          "Mixtape “Recopila V. A. vol. 1” en solitario",
+          "Disco “Aventuras en el paraíso” con Gran Purisimo "
+        ],
+        "2009": ["Maqueta “Fletcher Pis” en solitario"],
+        "2010": [
+          "Disco “Universal Languague” en solitario",
+          "Disco “Nucleares” con Sicario"
+        ],
+        "2012": [
+          "Disco “H·A·Z·H·E” en solitario",
+          "Maqueta “Hazhe: Letras y colabos 1” en solitario",
+          "Maqueta “Hazhe: Letras y colabos 2” en solitario",
+          "Disco “Meid in Espein” en solitario"
+        ],
+        "2013": ["Disco “Cracks” con Mala Juntera"],
+        "2015": ["Beat Tape “Loops and Drafts Beat Tape vol. 1” en solitario"],
+        "2016": ["Disco “Meid in Espein 2” con Acción Sánchez"],
+        "2018": [
+          "Disco “Summer Love-Fi” en solitario",
+          "Disco “Autumn Love-Fi” en solitario"
+        ],
+        "2019": [
+          "Disco “Winter Love-Fi” en solitario",
+          "Disco “Spring Love-Fi” en solitario"
+        ]
+      }
+    },
+    {
+      "nombre": "Manuel",
+      "apellidos": "Fernández",
+      "aka": "Dj Nexxa",
+      "nacimiento": "1990",
+      "region": "Cádiz",
+      "modalidad": "Dj",
+      "grupo": "",
+      "carta": "CartaDjNexxa.png",
+      "imagen": "DjNexxa.png",
+      "trayectoria": {
+        "2008": ["Mixtapr “Toma de Contacto” en solitario"],
+        "2009": [
+          "Mixtape “A Tribute to J.Dilla” en solitario (homenaje a J.Dilla)",
+          "Mixtape “CadiSound” en solitario"
+        ],
+        "2010": ["Mixtape “Return of the Original Boom Bapp” en solitario"],
+        "2012": [
+          "Participación en la Competicion de Dj's Red Bull Thre3style",
+          "Maqueta “Movi it” en solitario"
+        ],
+        "2013": [
+          "EP “Las Leyendas Nunca Mueren” con El Moreno de la Iné",
+          "3r Puesto en la Competicion de Dj's Red Bull Thre3style"
+        ],
+        "2015": ["Disco “78” de ToteKing"]
+      }
+    },
+    {
+      "nombre": "Gangsta Squad (Lirico y Dj Brutal)",
+      "apellidos": "",
+      "aka": "Gangsta Squad",
+      "nacimiento": "1991",
+      "region": "Zaragoza",
+      "modalidad": "Grupo",
+      "grupo": "",
+      "carta": "CartaGangstaSquad.png",
+      "imagen": "GangstaSquad.png",
+      "trayectoria": {
+        "1994": ["Maqueta “…Es tan sólo un aviso”"]
+      }
+    },
+    {
+      "nombre": "Bufank (Sho Hai, Juez One y R de Rumba)",
+      "apellidos": "",
+      "aka": "Bufank",
+      "nacimiento": "1990",
+      "region": "Zaragoza",
+      "modalidad": "Grupo",
+      "grupo": "",
+      "carta": "CartaBufank.png",
+      "imagen": "Bufank.png",
+      "trayectoria": {
+        "1996": ["Maqueta “Bufank”"],
+        "1997": ["Maqueta “Ciego De Sábado Noche”"]
+      }
+    },
+    {
+      "nombre": "Javier",
+      "apellidos": "Ibarra Ramos",
+      "aka": "Kase O",
+      "nacimiento": "01/03/1980",
+      "region": "Zaragoza",
+      "modalidad": "Mc",
+      "grupo": "Violadores del Verso",
+      "carta": "CartaKaseO.png",
+      "imagen": "KaseO.png",
+      "trayectoria": {
+        "1993": ["Maqueta “Rompecabezas” en solitario"],
+        "1995": ["Maqueta “Dos Rombos” en solitario"],
+        "1998": [
+          "EP “Violadores del Verso” con Violadores del Verso",
+          "Maxi “Kase.O en: Mierda” con Violadores del Verso"
+        ],
+        "1999": ["Disoo “Genios” con Violadores del Verso"],
+        "2001": [
+          "Maxi “Atrás” con Violadores del Verso",
+          "Reedición del Maxi “Kase.O en: Mierda” con Violadores del Verso",
+          "Disco “Vicios y virtudes” con Violadores del Verso"
+        ],
+        "2002": ["DVD “Tú eres alguien/Bombo clap” con Violadores del Verso"],
+        "2006": [
+          "Maxi “Vivir para contarlo / Haciendo lo nuestro” con Violadores del Verso",
+          "Disco “Vivir para contarlo” con Violadores del Verso"
+        ],
+        "2007": ["DVD “Gira 06/07 Presente” con Violadores del Verso"],
+        "2011": ["Disco “Kase.O Jazz Magnetism” con la banda de Jazz "],
+        "2015": ["Maxi-single “Previo” en solitario"],
+        "2016": ["Disco “El Círculo” en solitario"]
+      }
+    },
+    {
+      "nombre": "David",
+      "apellidos": "Gilaberte Miguel",
+      "aka": "Lirico",
+      "nacimiento": "25/12/1976",
+      "region": "Zaragoza",
+      "modalidad": "Mc",
+      "grupo": "Violadores del Verso",
+      "carta": "CartaLirico.png",
+      "imagen": "Lirico.png",
+      "trayectoria": {
+        "1994": ["Maqueta “…Es tan sólo un aviso” con Gangsta Squad"],
+        "1998": [
+          "EP “Violadores del Verso” con Violadores del Verso",
+          "Maxi “Kase.O en: Mierda” con Violadores del Verso"
+        ],
+        "1999": ["Disoo “Genios” con Violadores del Verso"],
+        "2001": [
+          "Maxi “Atrás” con Violadores del Verso",
+          "Reedición del Maxi “Kase.O en: Mierda” con Violadores del Verso",
+          "Disco “Vicios y virtudes” con Violadores del Verso"
+        ],
+        "2002": ["DVD “Tú eres alguien/Bombo clap” con Violadores del Verso"],
+        "2006": [
+          "Maxi “Vivir para contarlo / Haciendo lo nuestro” con Violadores del Verso",
+          "Disco “Vivir para contarlo” con Violadores del Verso"
+        ],
+        "2007": ["DVD “Gira 06/07 Presente” con Violadores del Verso"],
+        "2012": ["Disco “Un antes y un después” en solitario"]
+      }
+    },
+    {
+      "nombre": "Rubén",
+      "apellidos": "Cuevas García",
+      "aka": "R de Rumba",
+      "nacimiento": "14/07/1976",
+      "region": "Zaragoza",
+      "modalidad": "Dj y Productor",
+      "grupo": "Violadores del Verso",
+      "carta": "CartaRdeRumba.png",
+      "imagen": "RdeRumba.png",
+      "trayectoria": {
+        "1990": ["Creación del Grupo “Metal Combo” con Juez One"],
+        "1996": ["Maqueta “Bufank” con Bufank"],
+        "1997": ["Maqueta “Ciego De Sábado Noche” con Bufank"],
+        "1998": [
+          "EP “Violadores del Verso” con Violadores del Verso",
+          "Maxi “Kase.O en: Mierda” con Violadores del Verso"
+        ],
+        "1999": ["Disoo “Genios” con Violadores del Verso"],
+        "2001": [
+          "Maxi “Atrás” con Violadores del Verso",
+          "Reedición del Maxi “Kase.O en: Mierda” con Violadores del Verso",
+          "Disco “Vicios y virtudes” con Violadores del Verso"
+        ],
+        "2002": ["DVD “Tú eres alguien/Bombo clap” con Violadores del Verso"],
+        "2003": ["Maxi “Reunión – Sistema R.A.P.” en solitario"],
+        "2004": [
+          "Maxi “1.er contacto – Ley natura mantiene” en solitario",
+          "Disco “R de Rumba” en solitario"
+        ],
+        "2006": [
+          "Maxi “Vivir para contarlo / Haciendo lo nuestro” con Violadores del Verso",
+          "Disco “Vivir para contarlo” con Violadores del Verso"
+        ],
+        "2007": ["DVD “Gira 06/07 Presente” con Violadores del Verso"],
+        "2011": ["Disco “Doble Vida” de Sho Hai"],
+        "2017": ["Disco “La Última Función” de Sho Hai"]
+      }
+    },
+    {
+      "nombre": "Sergio",
+      "apellidos": "Rodríguez Fernández",
+      "aka": "Sho Hai",
+      "nacimiento": "19/02/1976",
+      "region": "Zaragoza",
+      "modalidad": "Mc",
+      "grupo": "Violadores del Verso",
+      "carta": "CartaShoHai.png",
+      "imagen": "ShoHai.png",
+      "trayectoria": {
+        "1996": ["Maqueta “Bufank” con Bufank"],
+        "1997": ["Maqueta “Ciego De Sábado Noche” con Bufank"],
+        "1998": [
+          "EP “Violadores del Verso” con Violadores del Verso",
+          "Maxi “Kase.O en: Mierda” con Violadores del Verso"
+        ],
+        "1999": ["Disoo “Genios” con Violadores del Verso"],
+        "2001": [
+          "Maxi “Atrás” con Violadores del Verso",
+          "Reedición del Maxi “Kase.O en: Mierda” con Violadores del Verso",
+          "Disco “Vicios y virtudes” con Violadores del Verso"
+        ],
+        "2002": ["DVD “Tú eres alguien/Bombo clap” con Violadores del Verso"],
+        "2006": [
+          "Maxi “Vivir para contarlo / Haciendo lo nuestro” con Violadores del Verso",
+          "Disco “Vivir para contarlo” con Violadores del Verso"
+        ],
+        "2007": ["DVD “Gira 06/07 Presente” con Violadores del Verso"],
+        "2011": ["Disco “Doble Vida” en solitario"],
+        "2017": ["Disco “La Última Función” en solitario"]
+      }
+    },
+    {
+      "nombre": "Violadores del Verso",
+      "apellidos": "",
+      "aka": "Violadores del Verso",
+      "nacimiento": "1997",
+      "region": "Zaragoza",
+      "modalidad": "Grupo",
+      "grupo": "Violadores del Verso",
+      "carta": "CartaVV.png",
+      "imagen": "VioladoresdelVerso.png",
+      "trayectoria": {
+        "1998": ["EP “Violadores del Verso”", "Maxi “Kase.O en: Mierda”"],
+        "1999": ["Disoo “Genios”"],
+        "2001": [
+          "Maxi “Atrás”",
+          "Reedición del Maxi “Kase.O en: Mierda”",
+          "Disco “Vicios y virtudes”"
+        ],
+        "2002": ["DVD “Tú eres alguien/Bombo clap”"],
+        "2006": [
+          "Maxi “Vivir para contarlo / Haciendo lo nuestro”",
+          "Disco “Vivir para contarlo”"
+        ],
+        "2007": ["DVD “Gira 06/07 Presente”"]
+      }
+    },
+    {
+      "nombre": "Ricardo",
+      "apellidos": "López Barreiro",
+      "aka": "Ricky el Hombre Libre",
+      "nacimiento": "05/12/1984",
+      "region": "Galicia",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaRicky.png",
+      "imagen": "RickyElHombreLibre.png",
+      "trayectoria": {
+        "2000": ["Maqueta “Fuera del Cristal” con Ambito Kinitoh"],
+        "2002": ["Maqueta “Artes y Oficios” con Ambito Kinitoh"],
+        "2003": ["Maqueta “Llorar no basta” con Ambito Kinitoh"],
+        "2008": ["Maqueta “El Arte de la Espada” con Seissenseis"],
+        "2010": ["Maxi “Don’t Stop The Rap” con Seissenseis"],
+        "2011": ["Maqueta “La Maqueta Negra” con Ambito Kinitoh"],
+        "2014": ["Maqueta “Microphone Doctrina” con Seissenseis"],
+        "2017": ["Disco “La Estrategia de la Tortuga” en solitario"]
+      }
+    },
+    {
+      "nombre": "Juan",
+      "apellidos": "González Moreno",
+      "aka": "Zenit",
+      "nacimiento": "23/10/1977",
+      "region": "Madrid",
+      "modalidad": "Mc",
+      "grupo": "",
+      "carta": "CartaZenit.png",
+      "imagen": "Zenit.png",
+      "trayectoria": {
+        "2001": ["Disco “995” con 995"],
+
+        "2003": ["Disco “Producto Infinito” en solitario"],
+        "2004": [
+          "Disco Reedición “Producto Infinito. Versión 04” en solitario"
+        ],
+        "2005": ["Maxi “Es el momento” en solitario"],
+        "2006": ["Disco “Torre de Babel” en solitario"],
+        "2009": [
+          "Maxi “Crew Cuervos” con Crew Cuervos",
+          "Disco “Carrie” con Crew Cuervos"
+        ],
+        "2010": ["Disco “Nadir” en solitario"],
+        "2012": ["Maxi “Pido Libertad” en solitario"]
+      }
+    },
+    {
+      "nombre": "José Antonio",
+      "apellidos": "Carretón",
+      "aka": "Legendario",
+      "nacimiento": "24/06/1981",
+      "region": "Sevilla",
+      "modalidad": "Mc",
+      "grupo": "Dogma Crew",
+      "carta": "CartaLegendario.png",
+      "imagen": "Legendario.png",
+      "trayectoria": {
+        "1999": ["Maqueta “Todo llega” con Dogma Crew"],
+        "2000": ["Maqueta “Ya están aquí” con Dogma Crew"],
+        "2002": ["Maqueta “Tinta Eskizofrénica” en solitario"],
+        "2003": [
+          "Maxi “Antihéroes” con Dogma Crew",
+          "Disco “Block Massacre” con Dogma Crew"
+        ],
+        "2006": ["Maxi “Bala Perdida” en solitario"],
+        "2007": ["Maxi “Nacen de la bruma” con Dogma Crew"],
+        "2008": ["Disco “La octava plaga” con Dogma Crew"],
+        "2010": ["Disco “Mis Armas Favoritas” en solitario "],
+        "2012": ["Disco “Limonada” con Puto Largo"],
+        "2014": ["Disco “Pelotas” con Baghira"],
+        "2016": ["Disco “Limonada Planet” con Puto Largo"]
+      }
+    },
+    {
+      "nombre": "Mala Juntera (Acción Sánchez, Hazhe, Capaz y Zatu)",
+      "apellidos": "",
+      "aka": "Mala Juntera",
+      "nacimiento": "2013",
+      "region": "Sevilla, Malaga y Zaragoza",
+      "modalidad": "Grupo",
+      "grupo": "Mala Jutera",
+      "carta": "CartaMalaJuntera.png",
+      "imagen": "MalaJuntera.png",
+      "trayectoria": {
+        "2013": ["Disco “Cracks”", "Maxi “Flava”"]
+      }
+    }
+  ]
+}
