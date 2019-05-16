@@ -58,7 +58,8 @@
 <script>
 export default {
   data: () => ({
-    links: ["Contacto", "¿Quien Somos?"]
+    links: ["Contacto", "¿Quien Somos?"],
+    test: 0
   }),
   components: {}
 };
