@@ -1,6 +1,7 @@
 {
   "ArtistasNacionales": [
     {
+      "id": 0,
       "nombre": "Saturnino",
       "apellidos": "Rey Garcia",
       "aka": "Zatu",
@@ -57,13 +58,14 @@
       }
     },
     {
+      "id": 1,
       "nombre": "Oscar",
       "apellidos": "Sánchez Pérez",
       "aka": "Accion Sanchez",
       "nacimiento": "24/02/1977",
       "muerte": "",
       "region": "Sevilla",
-      "modalidad": "Dj, Productor",
+      "modalidad": ["Dj", "Productor"],
       "grupo": "SFDK",
       "carta": "CartaAccionSanchez.png",
       "imagen": "AccionSanchez.png",
@@ -273,7 +275,7 @@
       "nacimiento": "19/08/1980",
       "muerte": "",
       "region": "Zaragoza",
-      "modalidad": "Dj y Productor",
+      "modalidad": ["Dj", "Productor"],
       "grupo": "",
       "carta": "CartaHazhe.png",
       "imagen": "Hazhe.png",
@@ -468,7 +470,7 @@
       "nacimiento": "14/07/1976",
       "muerte": "",
       "region": "Zaragoza",
-      "modalidad": "Dj y Productor",
+      "modalidad": ["Dj", "Productor"],
       "grupo": "Violadores del Verso",
       "carta": "CartaRdeRumba.png",
       "imagen": "RdeRumba.png",
@@ -682,7 +684,7 @@
       "nacimiento": "02/04/1967",
       "muerte": "",
       "region": "Nueva York",
-      "modalidad": "Dj y Productor",
+      "modalidad": ["Dj", "Productor"],
       "grupo": "",
       "carta": "CartaPrincePaul.png",
       "imagen": "PrincePaul.png",
@@ -766,16 +768,7 @@
         "1998": ["Disco “Moment of Truth”"],
         "1999": ["Recopilación “Full Clip: A Decade of Gang Starr”"],
         "2003": ["Disco “The Ownerz”"],
-        "2006": ["Recopilación “Mass Appeal: The Best of Gang Starr”"],
-        "2011": ["Disco “Section.80”"],
-        "2012": ["Disco “ Good Kid, M.A.A.D. City”"],
-        "2013": [],
-        "2014": ["Mixtape “Welcome to Compton”"],
-        "2015": ["Disco “To Pimp a Butterfly”"],
-        "2016": ["Mixtape “Untitled Unmastered”"],
-        "2017": ["Disco “DAMN”"],
-        "2018": ["Banda Sonora “Black Panther: The Album”"],
-        "2019": []
+        "2006": ["Recopilación “Mass Appeal: The Best of Gang Starr”"]
       }
     },
     {
@@ -880,7 +873,7 @@
       "nacimiento": "06/10/1964",
       "muerte": "",
       "region": "Nueva York",
-      "modalidad": "BeatBoxer y Mc",
+      "modalidad": ["BeatBox", "Mc"],
       "grupo": "The Roots",
       "carta": "CartaRahzel.png",
       "imagen": "Rahzel.png",

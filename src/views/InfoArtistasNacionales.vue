@@ -7,8 +7,8 @@
     </v-layout>
     <v-timeline align-top dense clipped dark>
       <v-timeline-item
-        :key="item"
         v-for="(item, name) in artistas[0].trayectoria"
+        :key="name"
         color="yellow"
         small
         v-if="item.length != 0"
@@ -23,21 +23,25 @@
         </v-layout>
       </v-timeline-item>
     </v-timeline>
+    <h1>{{aka}}</h1>
   </v-container>
 </template>
 
 <script>
 export default {
+  props: ["aka"],
   data: () => ({
     links: ["Contacto", "¿Quien Somos?"],
     artistas: []
   }),
   methods: {
     getData() {
-      fetch("Artistas.json")
+      fetch("/Artistas.json")
         .then(json => json.json())
         .then(data => {
-          this.artistas = data.ArtistasNacionales;
+          this.artistas = data.ArtistasNacionales.filter(
+            art => art.aka == this.aka
+          );
         });
     }
   },

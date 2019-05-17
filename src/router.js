@@ -58,9 +58,10 @@ export default new Router({
       component: QuienSomos
     },
     {
-      path: "/infoartistasnacionales",
+      path: "/infoartistasnacionales/:aka",
       name: "infoartistasnacionales",
-      component: InfoArtistasNacionales
+      component: InfoArtistasNacionales,
+      props: true
     },
     {
       path: "/infoartistasinternacionales",
