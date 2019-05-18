@@ -4,11 +4,11 @@
       <v-card :key="evento.cartel" v-for="evento in eventos" :href="evento.facebook">
         <v-img :src="require('../assets/Eventos/' + evento.cartel)"></v-img>
 
-        <v-card-title primary-title>
+        <!-- <v-card-title primary-title>
           <div>
             <div class="headline">{{evento.nombre}}</div>
           </div>
-        </v-card-title>
+        </v-card-title>-->
 
         <v-card-actions>
           <v-spacer></v-spacer>
