@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout justify-end>
-      <v-btn dark color="rgba(0, 0, 0, 0)" v-on="on"></v-btn>
+ 
     </v-layout>
   </v-container>
 </template>
