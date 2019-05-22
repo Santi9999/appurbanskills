@@ -13,12 +13,12 @@
         <v-chip color="purple" text-color="white">Entrevistas</v-chip>
       </div>
     </v-layout>
-
+    <v-flex xs12 class="fecha">{{month}}</v-flex>
     <v-layout wrap>
       <v-flex xs12 class="mb-3">
         <v-sheet height="500">
           <v-calendar
-            show-month-on-first="false"
+            :show-month-on-first="false"
             class="calendar"
             :now="today"
             :value="today"
@@ -66,18 +66,20 @@
         </v-sheet>
       </v-flex>
 
-      <v-flex sm4 xs12 class="text-sm-left text-xs-center">
-        <v-btn @click="$refs.calendar.prev()">
-          <v-icon dark left>keyboard_arrow_left</v-icon>Prev
-        </v-btn>
-      </v-flex>
-      <v-flex sm4 xs12 class="text-xs-center"></v-flex>
-      <v-flex sm4 xs12 class="text-sm-right text-xs-center">
-        <v-btn @click="$refs.calendar.next()">
-          Next
-          <v-icon right dark>keyboard_arrow_right</v-icon>
-        </v-btn>
-      </v-flex>
+      <v-layout justify-space-between>
+        <v-flex sm4 class="text-sm-left text-xs-center">
+          <v-btn @click="$refs.calendar.prev()">
+            <v-icon dark left>keyboard_arrow_left</v-icon>Prev
+          </v-btn>
+        </v-flex>
+
+        <v-flex sm4 class="text-sm-right text-xs-center">
+          <v-btn @click="$refs.calendar.next()">
+            Next
+            <v-icon right dark>keyboard_arrow_right</v-icon>
+          </v-btn>
+        </v-flex>
+      </v-layout>
     </v-layout>
   </v-container>
 </template>
@@ -86,6 +88,21 @@
 export default {
   data: () => ({
     type: "month",
+    month: "",
+    months: [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio",
+      "Julio",
+      "Agosto",
+      "Septiembre",
+      "Octubre",
+      "Noviembre",
+      "Diciembre"
+    ],
     today2: "2019-05-17",
     links: ["Contacto", "¿Quien Somos?"],
     events: [
@@ -106,14 +123,14 @@ export default {
       {
         title: "Vacation",
         details: "Going to the beach!",
-        date: "2019-01-01",
+        date: "2019-06-01",
         open: false,
         event: "articulos"
       },
       {
         title: "Meeting",
         details: "Spending time on how we do not have enough time",
-        date: "2019-01-07",
+        date: "2019-10-07",
         open: false,
         event: "entrevistas"
       },
@@ -170,7 +187,57 @@ export default {
   methods: {
     open(event) {
       alert(event.title);
+    },
+    next() {
+      this.$refs.calendar.next();
+    },
+    mes() {
+      switch (this.$refs.calendar.parsedValue.month) {
+        case 1:
+          this.month = "Enero";
+          break;
+        case 2:
+          this.month = "Febrero";
+
+          break;
+        case 3:
+          this.month = "Marzo";
+          break;
+        case 4:
+          this.month = "Abril";
+          break;
+        case 5:
+          this.month = "Mayo";
+          break;
+        case 6:
+          this.month = "Junio";
+          break;
+        case 7:
+          this.month = "Julio";
+          break;
+        case 8:
+          this.month = "Agosto";
+          break;
+        case 9:
+          this.month = "Septiembre";
+          break;
+        case 10:
+          this.month = "Octubre";
+          break;
+        case 11:
+          this.month = "Noviembre";
+          break;
+        case 12:
+          this.month = "Diciembre";
+          break;
+      }
     }
+  },
+  updated() {
+    this.mes();
+  },
+  created() {
+    this.month = this.months[new Date().getMonth()];
   }
 };
 </script>
@@ -234,5 +301,14 @@ export default {
 
 .v-sheet.theme--light {
   margin: 0;
+}
+
+.fecha {
+  background-color: yellow;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 25px;
 }
 </style>
