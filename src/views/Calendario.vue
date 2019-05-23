@@ -16,7 +16,7 @@
     <v-flex xs12 class="fecha">{{month}}</v-flex>
     <v-layout wrap>
       <v-flex xs12 class="mb-3">
-        <v-sheet height="500">
+        <v-sheet height="350">
           <v-calendar
             :show-month-on-first="false"
             class="calendar"
@@ -43,7 +43,7 @@
                   <v-card color="white" min-width="350px" flat>
                     <v-toolbar :class="event.event" dark>
                       <v-btn icon>
-                        <v-icon>edit</v-icon>
+                        <!-- <v-icon>edit</v-icon> -->
                       </v-btn>
                       <v-toolbar-title v-html="event.title"></v-toolbar-title>
                       <v-spacer></v-spacer>
@@ -56,7 +56,7 @@
                       <span v-html="event.details"></span>
                     </v-card-title>
                     <v-card-actions>
-                      <v-btn flat color="secondary">Cancel</v-btn>
+                      <!-- <v-btn flat color="secondary">Cancel</v-btn> -->
                     </v-card-actions>
                   </v-card>
                 </v-menu>
@@ -304,7 +304,7 @@ export default {
 }
 
 .fecha {
-  background-color: yellow;
+  background-color: rgb(255, 208, 0);
   height: 40px;
   display: flex;
   justify-content: center;

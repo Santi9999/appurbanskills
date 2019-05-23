@@ -3,13 +3,6 @@
     <v-flex xs12 sm6 offset-sm3>
       <v-card :key="evento.cartel" v-for="evento in eventos" :href="evento.facebook">
         <v-img :src="require('../assets/Eventos/' + evento.cartel)"></v-img>
-
-        <!-- <v-card-title primary-title>
-          <div>
-            <div class="headline">{{evento.nombre}}</div>
-          </div>
-        </v-card-title>-->
-
         <v-card-actions>
           <v-spacer></v-spacer>
         </v-card-actions>
@@ -61,5 +54,9 @@ export default {
 .v-card__title.v-card__title--primary {
   display: flex;
   justify-content: center;
+}
+
+.v-card__actions {
+  margin-bottom: 40px;
 }
 </style>

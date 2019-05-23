@@ -16,6 +16,13 @@
             </v-toolbar-title>
           </v-toolbar>
           <v-navigation-drawer v-model="mostrar" dark temporary fixed>
+             <v-list class="pa-1">
+              <v-list-tile to="/">
+                <v-list-tile-content>
+                  <v-list-tile-title>Inicio</v-list-tile-title>
+                </v-list-tile-content>
+              </v-list-tile>
+            </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/nacional">
                 <v-list-tile-content>
