@@ -23,6 +23,9 @@
             <router-link :to="'/infoartistasnacionales/' + artista.aka">
               <img class="icon" :src="require('../assets/ArtistasNacionales/' + artista.imagen)">
             </router-link>
+            <!-- <div class="text-xs-center">
+              <v-progress-circular :size="50" color="amber" indeterminate></v-progress-circular>
+            </div>-->
           </v-flex>
         </v-layout>
       </v-carousel-item>
