@@ -20,7 +20,7 @@
         <v-layout justify-center row wrap>
           {{item.length}}
           <v-flex xs5 v-for="artista in item" :key="artista.nombre">
-            <router-link to="/InfoArtistasInternacionales">
+          <router-link :to="'/infoartistasinternacionales/' + artista.aka">
               <img
                 class="icon"
                 :src="require('../assets/ArtistasInternacionales/' + artista.imagen)"
