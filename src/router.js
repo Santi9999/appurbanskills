@@ -64,9 +64,10 @@ export default new Router({
       props: true
     },
     {
-      path: "/infoartistasinternacionales",
+      path: "/infoartistasinternacionales/:aka",
       name: "infoartistasinternacionales",
-      component: InfoArtistasInternacionales
+      component: InfoArtistasInternacionales,
+      props: true
     },
 
     {

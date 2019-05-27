@@ -16,7 +16,7 @@
             </v-toolbar-title>
           </v-toolbar>
           <v-navigation-drawer v-model="mostrar" dark temporary fixed>
-             <v-list class="pa-1">
+            <v-list class="pa-1">
               <v-list-tile to="/">
                 <v-list-tile-content>
                   <v-list-tile-title>Inicio</v-list-tile-title>
@@ -66,12 +66,12 @@
               </v-list-tile>
             </v-list>
           </v-navigation-drawer>
-          <router-link to="/" class="mt-5">
+          <!-- <router-link to="/" class="mt-5">
             <img src="./assets/ImagenesHome/Logourban.png" width="310" height="210">
-          </router-link>
+          </router-link>-->
         </v-card-title>
       </v-flex>
-      <v-layout justify-center>
+      <!-- <v-layout justify-center>
         <v-flex xs4>
           <a href="https://www.instagram.com/urbanskillsoficial/" target="_blank">
             <img class="botoninsta" src="./assets/ImagenesHome/insta2.png" width="40" height="40">
@@ -92,7 +92,7 @@
             <img class="botonface" src="./assets/ImagenesHome/face2.png" width="40" height="40">
           </a>
         </v-flex>
-      </v-layout>
+      </v-layout>-->
 
       <router-view></router-view>
 
