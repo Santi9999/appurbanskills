@@ -19,51 +19,107 @@
             <v-list class="pa-1">
               <v-list-tile to="/">
                 <v-list-tile-content>
-                  <v-list-tile-title>Inicio</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/7.Home2.png"
+                      width="24"
+                      height="24"
+                    >Inicio
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/nacional">
                 <v-list-tile-content>
-                  <v-list-tile-title>Nacional</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/1.Nacional2.png"
+                      width="24"
+                      height="24"
+                    >Nacional
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/internacional">
                 <v-list-tile-content>
-                  <v-list-tile-title>Internacional</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/2.Internacional2.png"
+                      width="24"
+                      height="24"
+                    >Internacional
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/eventos">
                 <v-list-tile-content>
-                  <v-list-tile-title>Eventos</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/3.Eventos2.png"
+                      width="24"
+                      height="24"
+                    >Eventos
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/skillstv">
                 <v-list-tile-content>
-                  <v-list-tile-title>Skills TV</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/4.SkillsTv2.png"
+                      width="24"
+                      height="24"
+                    >Skills TV
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/calendario">
                 <v-list-tile-content>
-                  <v-list-tile-title>Calendario</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/5.Calendario2.png"
+                      width="24"
+                      height="24"
+                    >Calendario
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
             <v-list class="pa-1">
               <v-list-tile to="/urbanpost">
                 <v-list-tile-content>
-                  <v-list-tile-title>Urban Post</v-list-tile-title>
+                  <v-list-tile-title>
+                    <img
+                      class="botones"
+                      src="./assets/ImagenesHome/6.UrbanPost2.png"
+                      width="24"
+                      height="24"
+                    >Urban Post
+                  </v-list-tile-title>
                 </v-list-tile-content>
               </v-list-tile>
+              <hr>
             </v-list>
           </v-navigation-drawer>
           <!-- <router-link to="/" class="mt-5">
@@ -125,6 +181,7 @@ export default {
 };
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
 .fondo {
   background: url("./assets/ImagenesHome/fondourban.jpg");
   background-attachment: fixed;
@@ -146,5 +203,32 @@ a {
   height: 45px;
   position: relative;
   top: 5px;
+}
+
+aside.v-navigation-drawer.v-navigation-drawer--fixed.v-navigation-drawer--open.v-navigation-drawer--temporary.theme--dark {
+  background-color: black;
+}
+
+a.v-list__tile.v-list__tile--link.theme--dark {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: px;
+}
+
+.v-list__tile__content {
+  font-size: 25px;
+}
+
+.botones {
+  margin-right: 10px;
+}
+
+hr {
+  border: solid 0.5px gold;
+}
+
+.primary--text {
+  caret-color: gold !important;
+  color: gold !important;
 }
 </style>
