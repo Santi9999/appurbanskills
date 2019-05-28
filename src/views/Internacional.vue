@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container v-if="artistas.length != 0">
     <router-link to="/" class="mt-5">
       <img src="../assets/ImagenesHome/internacional.png" width="100%" height="100%">
     </router-link>
@@ -56,6 +56,11 @@
         </v-layout>
       </v-carousel-item>
     </v-carousel>
+  </v-container>
+  <v-container v-else>
+    <v-flex class="loader">
+      <v-progress-circular indeterminate color="yellow" size="99" width="8"></v-progress-circular>
+    </v-flex>
   </v-container>
 </template>
 

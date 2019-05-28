@@ -1,6 +1,6 @@
 <template>
   <v-container v-if="artistas.length != 0">
-    <v-layout justify-center>
+    <v-layout justify-center class="mt-5">
       <v-flex xs8>
         <v-img :src="require('../assets/CartasNacionales/' + artistas[0].carta)"></v-img>
       </v-flex>
@@ -24,6 +24,11 @@
       </v-timeline-item>
     </v-timeline>
     <h1>{{aka}}</h1>
+  </v-container>
+  <v-container v-else>
+    <v-flex class="loader">
+      <v-progress-circular indeterminate color="yellow" size="99" width="8"></v-progress-circular>
+    </v-flex>
   </v-container>
 </template>
 
