@@ -227,8 +227,7 @@ hr {
   border: solid 0.5px gold;
 }
 
-.primary--text {
-  caret-color: gold !important;
-  color: gold !important;
+.v-navigation-drawer > .v-list .v-list__tile--active .v-list__tile__title {
+  color: gold;
 }
 </style>
