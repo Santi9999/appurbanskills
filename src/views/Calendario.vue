@@ -337,4 +337,7 @@ export default {
 .v-card__actions {
   margin-bottom: 0;
 }
+.v-card__title.v-card__title--primary {
+  justify-content: left;
+}
 </style>
