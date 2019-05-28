@@ -130,57 +130,57 @@ export default {
     links: ["Contacto", "¿Quien Somos?"],
     events: [
       {
-        title: "Urban Post",
-        details: "Nacimiento de Zatu (28-03-1979)",
+        title: "Entrevista",
+        details: "Entrevista a Zatu",
         date: "2019-05-28",
         open: false,
         event: "evento"
       },
       {
-        title: "Vacation",
-        details: "Going to the beach!",
+        title: "Urban Post",
+        details: "Disco de Rapusklei-Pandemia",
         date: "2018-12-31",
         open: false,
         event: "urbanpost"
       },
       {
-        title: "Vacation",
-        details: "Going to the beach!",
+        title: "Kase O",
+        details: "Trayectoria",
         date: "2019-06-01",
         open: false,
         event: "articulos"
       },
       {
-        title: "Meeting",
-        details: "Spending time on how we do not have enough time",
+        title: "Entrevista",
+        details: "Hoy con Rapsusklei",
         date: "2019-10-07",
         open: false,
         event: "entrevistas"
       },
       {
-        title: "30th Birthday",
-        details: "Celebrate responsibly",
+        title: "Sismic Shot",
+        details: "Isackese",
         date: "2019-01-03",
         open: false,
         event: "videoclips"
       },
       {
-        title: "New Year",
-        details: "Eat chocolate until you pass out",
+        title: "Evento",
+        details: "Summer Experience 2019",
         date: "2019-01-01",
         open: false,
         event: "evento"
       },
       {
-        title: "Conference",
-        details: "Mute myself the whole time and wonder why I am on this call",
+        title: "Evento",
+        details: "Ciclo Hip Hop vol.3",
         date: "2019-01-21",
         open: false,
         event: "evento"
       },
       {
-        title: "Hackathon",
-        details: "Code like there is no tommorrow",
+        title: "Entrevista",
+        details: "Hoy con Legendario",
         date: "2019-02-01",
         open: false,
         event: "entrevistas"
