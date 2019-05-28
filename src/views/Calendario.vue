@@ -79,7 +79,7 @@
                       <span v-html="event.details"></span>
                     </v-card-title>
                     <v-card-actions>
-                      <v-btn flat color="secondary">CerraLLLLL</v-btn>
+                      <v-btn flat color="secondary">Cerrar</v-btn>
                     </v-card-actions>
                   </v-card>
                 </v-menu>
