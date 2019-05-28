@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <router-link to="/" class="mt-5">
-      <img src="../assets/ImagenesHome/calendario.png" width="100%" height="100%">
-    </router-link>
+    <!-- <router-link to="/" class="mt-5"> -->
+    <img src="../assets/ImagenesHome/calendario.png" width="100%" height="100%">
+    <!-- </router-link> -->
 
     <v-layout justify-center>
       <v-flex xs4>
@@ -68,9 +68,6 @@
                   </template>
                   <v-card color="white" min-width="350px" flat>
                     <v-toolbar :class="event.event" dark>
-                      <v-btn icon>
-                        <!-- <v-icon>edit</v-icon> -->
-                      </v-btn>
                       <v-toolbar-title v-html="event.title"></v-toolbar-title>
                       <v-spacer></v-spacer>
 
@@ -82,7 +79,7 @@
                       <span v-html="event.details"></span>
                     </v-card-title>
                     <v-card-actions>
-                      <!-- <v-btn flat color="secondary">Cancel</v-btn> -->
+                      <v-btn flat color="secondary">CerraLLLLL</v-btn>
                     </v-card-actions>
                   </v-card>
                 </v-menu>
@@ -133,9 +130,9 @@ export default {
     links: ["Contacto", "¿Quien Somos?"],
     events: [
       {
-        title: "Vacation",
-        details: "Going to the beach!",
-        date: "2019-05-26",
+        title: "Urban Post",
+        details: "Nacimiento de Zatu (28-03-1979)",
+        date: "2019-05-28",
         open: false,
         event: "evento"
       },
@@ -336,5 +333,8 @@ export default {
   justify-content: center;
   margin-top: 20px;
   font-size: 25px;
+}
+.v-card__actions {
+  margin-bottom: 0;
 }
 </style>

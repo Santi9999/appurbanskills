@@ -1,8 +1,6 @@
 <template>
   <v-container>
-    <router-link to="/" class="mt-5">
-      <img src="../assets/ImagenesHome/quienessomos.png" width="100%" height="100%">
-    </router-link>
+    <img src="../assets/ImagenesHome/quienessomos.png" width="100%" height="100%">
 
     <v-layout justify-center>
       <v-flex xs4>

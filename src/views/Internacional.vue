@@ -1,8 +1,8 @@
 <template>
   <v-container v-if="artistas.length != 0">
-    <router-link to="/" class="mt-5">
+  
       <img src="../assets/ImagenesHome/internacional.png" width="100%" height="100%">
-    </router-link>
+   
 
     <v-layout justify-center>
       <v-flex xs4>

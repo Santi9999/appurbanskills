@@ -1,8 +1,8 @@
 <template>
   <v-container v-if="posts.length != 0">
-    <router-link to="/" class="mt-5">
-      <img src="../assets/ImagenesHome/urbanpost.png" width="100%" height="100%">
-    </router-link>
+    <!-- <router-link to="/" class="mt-5"> -->
+    <img src="../assets/ImagenesHome/urbanpost.png" width="100%" height="100%">
+    <!-- </router-link> -->
 
     <v-layout justify-center>
       <v-flex xs4>
