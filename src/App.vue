@@ -101,7 +101,7 @@
           <a href="mailto:urbanskillsoficial@gmail.com">
             <v-btn color="black" flat round>Contacto</v-btn>
           </a>
-          <v-btn to="/quiensomos" color="black" flat round>¿Quien Somos?</v-btn>
+          <v-btn to="/quiensomos" color="black" flat round>¿Quiénes Somos?</v-btn>
           <v-flex yellow lighten-2 py-3 text-xs-center black--text xs12>
             &copy;2019 —
             <strong>S.Gamero&G.Alvarez</strong>
