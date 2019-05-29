@@ -26,16 +26,35 @@
         </a>
       </v-flex>
     </v-layout>
-    <v-layout justify-end></v-layout>
+    <v-layout justify-center>
+      <v-flex xs12>
+        <v-card :key="video.title" v-for="video in videos">{{video.snippet.title}}</v-card>
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
 
 <script>
 export default {
   data: () => ({
-    links: ["Contacto", "¿Quien Somos?"]
+    links: ["Contacto", "¿Quien Somos?"],
+    videos: [],
+    url:
+      "https://www.googleapis.com/youtube/v3/activities?part=snippet&channelId=UCJ6f-Cjc8fWi-EKIZ1zHIWQ&maxResults=50&key=AIzaSyBz_jq_T4ahYmK0UlkpyfYkX4W-5m6PDl0"
   }),
-  components: {}
+  methods: {
+    getData() {
+      fetch(this.url)
+        .then(json => json.json())
+        .then(data => {
+          this.videos = data.items;
+          console.log(this.videos);
+        });
+    }
+  },
+  created() {
+    this.getData();
+  }
 };
 </script>
 <style>
@@ -48,5 +67,9 @@ export default {
   display: flex;
   justify-content: center;
   margin: 10px;
+}
+
+.v-card.v-sheet.theme--light {
+  color: white;
 }
 </style>
