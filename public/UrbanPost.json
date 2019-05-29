@@ -10,26 +10,138 @@
     {
       "id": 1,
       "nombre": "Eazy-E-Str8 off tha streetz of muthaphukkin compton",
-      "foto": "uprakim.jpg",
+      "foto": "30.Enero.jpg",
       "fecha": "30/01/1996",
       "texto": "Nos trasladamos a Compton city (California) para recordar el último álbum de Eazy E-, “Str8 off tha Streetz of Muthaphukkin Compton” lanzado hace 23 años. El lanzamiento apuntaba hacia el verano del 95 pero debido que su salud estaba delicada se decidió retrasar. Finalmente llega el fatídico día y fallece Eazy-E (DEP) 30/03/1995, con apenas 30 años debido al virus da Sida. Diez meses más tarde se lanza el álbum (30/01/1996), creando un legado todavía más grande. El disco no pudo finalizarlo pero merecía que saliera a la luz los últimos 14 temas que compuso. Eazy-E marcó la historia del Rap/Gangsta Rap y a dia de hoy sigue siendo recordado por nuevas generaciones. Un recuerdo inmortal que las calles no olvidan!"
+    },
+    {
+      "id": 2,
+      "nombre": "Sean Price-“Jesus Price Superstar”",
+      "foto": "30.Enero2.jpg",
+      "fecha": "30/01/2007",
+      "texto": "Recordamos a Sean Price. Su segundo álbum “Jesus Price Superstar”, cumple hoy 12 años de su lanzamiento (30/01/2007).Con un listón bastante alto tras su carrera, Sean Price solo tiene una respuesta hacia este álbum, él hizo lo de siempre como solo él sabia hacer, siendo el mismo, con su estilo y haciendo lo que más le gustaba. No era un Mc políticamente correcto, no escribía para vender y quizás por eso es tan respectado y recordado. El Underground vivía en él. Del disco queremos destacar la canción “P-Body” con una base del productor 9Th Wonder y con la colaboración de Rock!!! Nos sorprendió también la capacidad para decidir las instrumentales, un proceso muy importante que Sean Price hacia con una maestría brutal!!"
     }
   ],
 
   "Febrero": [
     {
       "id": 0,
-      "nombre": "Nacimiento Rakim",
-      "foto": "uprakim.jpg",
-      "fecha": "28/01/1968",
-      "texto": "Felicidades Rakim. Si teneis que elegir un tema de Rakim cual elegian. Hoy desde Urban Skills queremos rememorar los 51 años del legendario RAKIM. El 28/01/1968 nació para muchos uno de los mejores Mcs de la historia. Por su flow, por su vocabulario y por su influencia a dia de hoy sigue llegando a las nuevas generaciones a pesar de que no tiener trabajos recientes"
+      "nombre": "Schoolly D-“Welcome to America”",
+      "foto": "1.Febrero.jpg",
+      "fecha": "01/02/1994",
+      "texto": "Hoy recordamos el sexto álbum “Welcome to America” de Schoolly D!! Salió a la luz el 01/02/1994. Pocos sabréis sobre este disco pero fue de los primeros en resaltar el estilo Gangsta Rap. El impacto en la sociedad dependiendo en la época que ocurra a veces hace que en la propia historia del Hip Hop no se recuerde como debería. Siendo injusto que algunos nombres muy importantes en la cultura no se recuerden como merecen, como pasó con Schoolly D. “Welcome to america” no se convirtió en un clásico, dejando mucho que desear, pero si tuvo la importancia que dejaría la semilla que marcó un propio estilo. Así es como es el Gangsta Rap se encuentra en cada Rima de Schoolly D en este disco!!"
     },
     {
       "id": 1,
-      "nombre": "Eazy-E-Str8 off tha streetz of muthaphukkin compton",
-      "foto": "uprakim.jpg",
-      "fecha": "30/01/1996",
-      "texto": "Felicidades Rakim. Si teneis que elegir un tema de Rakim cual elegian. Hoy desde Urban Skills queremos rememorar los 51 años del legendario RAKIM. El 28/01/1968 nació para muchos uno de los mejores Mcs de la historia. Por su flow, por su vocabulario y por su influencia a dia de hoy sigue llegando a las nuevas generaciones a pesar de que no tiener trabajos recientes"
+      "nombre": "Tote King-“Música Para Enfermos”",
+      "foto": "4.Febrero.jpg",
+      "fecha": "04/02/2004",
+      "texto": "Hace 15 años Tote King lanzaba su primer álbum “Música Para Enfermos” con el sello Yo Gano (4/02/2004). Con este álbum el sevillano consigue dejar huella y crear un disco que forma parte de la historia del Hip Hop nacional. En Urban Skills Destacamos el tema “1 contra 20 Mc's” en que Tote muestra toda su fuerza y lírica."
+    },
+    {
+      "id": 2,
+      "nombre": "Big Pun R.I.P",
+      "foto": "7.Febrero.jpg",
+      "fecha": "07/02/2000",
+      "texto": "Hoy nos gustaría rememorar a Big Pun. El 7/02/2000 debido a su sobrepeso fallece a causa de una parada cardiorrespiratoria. Desde Urban skills nos gustaría homenajear a esta leyenda de la cultura Hip-Hop. Tenéis una pequeña biografía de este mito en nuestra página web. R.I.P Big Pun"
+    },
+    {
+      "id": 3,
+      "nombre": "Kanye West-“Collegue Drop Out”",
+      "foto": "10.Febrero.jpg",
+      "fecha": "10/02/2004",
+      "texto": "Kanye West (Atlanta), sobre el año 2000 empezó a ganar nombre como productor en Chicago colaborando con grandes artistas internacionales pero no conseguía tener repercusión como Mc. El 10 de Febrero de 2004 lanza su primer álbum “ Collegue Drop Out” en el que todas las producciones corren a su cargo y con éste, empieza a ser conocido como rapero"
+    },
+    {
+      "id": 4,
+      "nombre": "J. Dilla R.I.P",
+      "foto": "10.Febrero2.jpg",
+      "fecha": "10/02/2006",
+      "texto": "Tal día como hoy (10/02/2006) muere J. Dilla debido a una enfermedad poco frecuente en la sangre. En 2004 los rumores del mal estado de su salud se reflejan en su pérdida de peso. J.Dilla nunca dejó de trabajar y dedicar tiempo a la cultura, prueba de eso fue que realizó su último tour en silla de ruedas en noviembre de 2005. Tres días después de su 32 aniversario y del lanzamiento de su álbum “Donuts”, fallece en su casa. A pesar de que han transcurrido varios años desde su perdida, su música sigue inspirando a diversos artistas que tienen presente el nombre de J. Dilla. R.I.P"
+    },
+    {
+      "id": 5,
+      "nombre": "The Fugees-“The Score”",
+      "foto": "13.Febrero.jpg",
+      "fecha": "13/02/1996",
+      "texto": "Hoy en Urban Skills recordamos al grupo Fugees con “The Score”, su segundo y último álbum. Tras un primer disco sin éxito su sello discográfico Ruffhouse, decide no tirar la toalla con el grupo y apuesta por ellos lanzando su segundo proyecto el 13/02/1996. “The Score” está considerado uno de los mejores LP’s por canciones como “Fu-Gee-La”"
+    },
+    {
+      "id": 6,
+      "nombre": "2Pac-“All eyez on me” ",
+      "foto": "13.Febrero2.jpg",
+      "fecha": "13/02/1996",
+      "texto": "Tras 11 meses en la cárcel vuelve la leyenda 2Pac con el primer disco doble “All eyez on me” (13/02/1996), compuesto nada más y nada menos que por 27 temas llenos de fuerza y rabia. La prioridad de su sello discográfico (Death Row) fue canalizar todos los posibles éxitos para que 2Pac recuperase el tiempo perdido. El tema “California Love” en principio no entraba en el álbum, pero ha acabado siendo uno de los hits más conocidos dentro de la historia del Hip Hop. Este extenso disco fue grabado en menos de un mes y tal que fue lanzado llegó a lo más alto de las listas de venta. Después de 18 años de su lanzamiento, en agosto de 2014 fue considerado disco diamante."
+    },
+    {
+      "id": 7,
+      "nombre": "Big L R.I.P",
+      "foto": "15.Febrero.jpg",
+      "fecha": "15/02/1999",
+      "texto": "Hoy es un dia triste para la cultura hip hop, marcado por la pérdida de Big L (15/02/1999). En plena juventud, con tan sólo 24 años fue asesinado mediante 9 disparos en su barrio (Harlem). Si nos ubicamos en los años 90 podemos afirmar que Big L era uno de los Mc’s con más potencial y que hubiera tenido una carrera exitosa. Pese haber pasado 20 años de su muerte y con una carrera escueta seguimos recordando/escuchando su legado. Big L Rest In Peace!!!"
+    },
+    {
+      "id": 8,
+      "nombre": "2Pac-“Stricly 4 my N.I.G.G.A.Z”",
+      "foto": "16.Febrero.jpg",
+      "fecha": "16/02/1993",
+      "texto": "“Stricly 4 my N.I.G.G.A.Z”es el segundo álbum de 2Pac Shakur.Continuando como en su primer LP con una expresión marcada por la crítica social, en este nuevo disco su estilo comienza a decantarse por el Gangsta Rap. Destacamos el tema “Last Wordz” feat dos pesos pesados: Ice T y Ice Cube. Este álbum fue lanzado el 16/02/1993 llegando a colocarse en el puesto nº4 del Top R&b (de álbumes de rap). Tras este disco que fue muy importante en su carrera, 2Pac fue considerado por mucho como el mejor Mc de todos los tiempo."
+    },
+    {
+      "id": 9,
+      "nombre": "Das Efx- Concierto en España",
+      "foto": "17.Febrero.jpg",
+      "fecha": "17/02/2019",
+      "texto": "Das Efx vuelven a España, único concierto en Madrid el día 17/02/2019!!! Una oportunidad para recordar clásicos y la energía de este grupo!! Das Efx son un gran grupo que brilla por su estilo, vocabulario y la forma de estructurar las rimas. Fueron descubiertos en un concurso de nuevos talentos, a pesar que no se proclaman ganadores ya lo eran sin saberlo. El mítico grupo EPMD se fija en ellos … y lo demás ya es historia, como será histórico el concierto de Madrid en la Sala Copérnico."
+    },
+    {
+      "id": 10,
+      "nombre": "Dr.Dre Cumpleaños",
+      "foto": "18.Febrero.jpg",
+      "fecha": "18/02/1965",
+      "texto": "Felicitamos a Dr.Dre a sus 54 años (18/02/1965). Como sabeís es un gran productor y Mc que forma parte de la cultura Hip Hop. Tiene un estilo único es sus beats, podemos decir que consiguió marcar una era con grandes clásicos como “Still D.R.E”. Un gran artista con una exitosa carrera y con una extraordinaria visión de potencial, descubriendo a artistas como Snoop Dog y Eminem. "
+    },
+    {
+      "id": 11,
+      "nombre": "GZA-“Words from a Genius”",
+      "foto": "19.Febrero.jpg",
+      "fecha": "19/02/1991",
+      "texto": "“Words from a Genius” fue el primer álbum de GZA lanzado el 19/02/1991. Un registro único antes de la creación del grupo Wu-tang clan. GZA está considerado uno de los mejores Mc’s por su flow, vocabulario y metáforas. Un artista que marca la diferencia, haciendo así historia en el Rap. En cuanto a su primer disco ya venía implícito su espectacular estilo y potencial que más tarde se confirmaría en la unión de los Wu-tang. El álbum está casi todo producido por Easy Mo Bee y Patrick Harley. Se lanzo al mercado mediante la discográfica Cold Chilin Records, pero no obtuvo el éxito previsto. GZA en una entrevista menciona que su disco no cumplió lo objetivos previstos porque el sello no apoyó lo suficiente y por la falta de publicidad tanto en 1991 en su lanzamiento como en 1994 en la reedición. Desde Urban Skills recordamos el tema “Life of a drug dealer”"
+    },
+    {
+      "id": 12,
+      "nombre": "Immortal technique Cumpleaños",
+      "foto": "19.Febrero2.jpg",
+      "fecha": "19/02/1978",
+      "texto": "Urbanskills Felicitamos a Immortal technique (Felipe Andrés Coronel) por sus 41 años. Un Mc y activista nacido el 19/02/1978 en Lima, Peru. Está considerado uno de los mejores Mc’s y más respectados del Underground. Su gran éxito viene precedido por sus letras con crítica social y a la industria musical. Immortal technique no cambia por nadie, continua su camino sin dejarse influenciar por los haters!! Felicidades Immortal Technique!!!"
+    },
+    {
+      "id": 13,
+      "nombre": "Eminem-“Slim Shady Lp”",
+      "foto": "23.Febrero.jpg",
+      "fecha": "23/02/1999",
+      "texto": "Eminem con su segundo álbum “Slim Shady Lp” (23/02/1999) llegó pisando fuerte. Hace dos décadas de su lanzamiento y aun sigue siendo un disco escuchado. Después de un primer álbum en solitario y con alguna participación en batallas, Eminem es descubierto por Dr Dre. Así es como comienzan a trabajar juntos en un estudio y fruto de ello es el nacimiento de este segundo disco. Eminem marcó la cultura urbana con un estilo distinto/único de rimas y un flow sorprendente, llegando a lo más alto del top rápidamente y forjándose un nombre en la cultura Hip Hop."
+    },
+    {
+      "id": 14,
+      "nombre": "The Roots-“Things fall apart”",
+      "foto": "23.Febrero2.jpg",
+      "fecha": "23/02/1999",
+      "texto": "Hoy recordamos el 4° álbum “Things fall apart” del grupo The Roots ubicado en Philadelphia. El disco fue lanzado el 23/02/1999, hace ya 20 años. En nuestra opinión este álbum marcó el fin de una era que empezó con “Organix”( su primer álbum) en 1993. “Things fall apart” es un álbum completo, bien estructurado y limpio el cual hizo que The Roots forjaran su nombre en la industria musical con un estilo único. Uno de los singles del álbum (“You got me”), ganó un grammy en la categoría “best rap performance by a duo or a group”. Este single fue producido por el famoso Scott Storch, que perteneció al grupo hasta 1996, aun que ha seguido vinculado y colaborando con ellos. También optaron al premio en la categoría de mejor álbum de Rap, pero terminó ganándolo Eminem con su “Slim Shady LP”, lanzado en el mismo día."
+    },
+    {
+      "id": 15,
+      "nombre": "Fu-Schnickens-“F.U. Don't Take It Personal”",
+      "foto": "25.Febrero.jpg",
+      "fecha": "25/02/1992",
+      "texto": "Desde Urban Skills recordamos el primer álbum “F.U. Don't Take It Personal” de Fu-Schnickens, un grupo que marcó dentro del Hip Hop por un estilo excepcional e innovador. El grupo adquiere influencias del mundo Kung Fu en cuanto a su flow, su vocabulario y además los 3 componentes ( Chin Fu, Moc Fu, Poc Fu) crean una complicidad sonora única haciendo que este proyecto sea sólido y aparentemente sencillo pero a su vez muy complejo. Este álbum lanzado el día 25/02/1992 cumple 27 años y sigue llenando de nostalgia a quien lo vuelve a escuchar o sorprendiendo a quien nunca lo escuchó."
+    },
+    {
+      "id": 16,
+      "nombre": "Nach-“Los viajes Inmóviles”",
+      "foto": "25.Febrero2.jpg",
+      "fecha": "25/02/2014",
+      "texto": "Destacamos “Los viajes Inmóviles” de Nach, su séptimo álbum lanzado el día 25/02/2014 donde quiso hacer un proyecto distinto, más poético, sentido y melancólico. Prestando homenaje a las influencias de la cultura Hip Hop con el estilo “Spoken Words”, poesía declamada con instrumentales. Un movimiento que llegó a la cultura Hip Hop con tales nombres como Gill Scott Heron o The Last Poets. Al escuchar el disco de Nach podemos experimentar sensorialmente que nos hace viajar a esa era de “Spoken Words” acariciando el recuerdo de Gill Scott Heron. No es fácil que la industria y el público acepten proyectos distintos a lo que están acostumbrados. Sin embargo cada artista tiene que hacer lo que siente y lo que le gusta para ser realmente un artista y es exactamente lo que hace Nach con este álbum."
     }
   ],
   "Marzo": [
