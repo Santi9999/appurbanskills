@@ -38,7 +38,7 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <h1 class="titulovideo">{{videos[0].snippet.title}}</h1>
+      <v-flex xs12 id="titulo"></v-flex>
     </v-layout>
     <v-layout justify-center>
       <v-carousel class="carouselvideos" height="150" :cycle="false">
@@ -50,6 +50,7 @@
               target="play"
               :key="video.snippet.title"
               v-for="video in item"
+              @click="cambiartitulo()"
             >
               <img
                 width="100"
@@ -87,6 +88,11 @@ export default {
       return `https://www.youtube.com/embed/${
         video.snippet.thumbnails.default.url.split("/")[4]
       }`;
+    },
+    cambiartitulo() {
+      let h1 = document.createElement("h1");
+      h1.append(videos.snippet.title);
+      document.getElementById("titulo").append(h1);
     },
 
     carousel() {

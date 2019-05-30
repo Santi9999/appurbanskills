@@ -7,7 +7,13 @@
             <v-toolbar fixed dark>
               <v-menu max-height="50px" offset-y transition="slide-x-transition">
                 <template v-slot:activator="{ on }">
-                  <v-btn :depressed="true" :fab="true" :small="true" @click="mostrar = !mostrar">
+                  <v-btn
+                    class="menu"
+                    :depressed="true"
+                    :fab="true"
+                    :small="true"
+                    @click="mostrar = !mostrar"
+                  >
                     <v-toolbar-side-icon></v-toolbar-side-icon>
                   </v-btn>
                 </template>
@@ -15,6 +21,10 @@
               <v-toolbar-title>
                 <img class="portada" :src="require('./assets/ImagenesHome/Portada.png')">
               </v-toolbar-title>
+              <v-spacer></v-spacer>
+              <v-btn fab small color="#ccb803" dark href="javascript:history.back()">
+                <v-icon dark>arrow_back</v-icon>
+              </v-btn>
             </v-toolbar>
             <v-navigation-drawer v-model="mostrar" dark temporary fixed>
               <v-list class="pa-1">
@@ -213,5 +223,9 @@ hr {
 
 .toTop {
   color: black;
+}
+
+.menu {
+  margin-right: 0;
 }
 </style>

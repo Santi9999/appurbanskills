@@ -3,21 +3,38 @@
   "name": "Urban Skills Oficial",
   "icons": [
     {
-      "src": "./Logourban.png",
+      "src": "./mstile-150x150.png",
       "type": "image/png",
-      "sizes": "48x48"
+      "sizes": "150x150"
     },
     {
-      "src": "./Logourban.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "./Logourban.png",
+      "src": "./android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "./android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "./favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "./favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
     }
   ],
   "start_url": "/",
-  "display": "standalone"
+  "display": "standalone",
+  "theme-color": "#ffffff",
+  "msapplication-TileColor": "#000000"
 }
