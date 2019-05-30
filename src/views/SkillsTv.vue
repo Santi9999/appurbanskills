@@ -1,9 +1,6 @@
 <template>
   <v-container>
-    <!-- <router-link to="/" class="mt-5"> -->
     <img src="../assets/ImagenesHome/skillstv.png" width="100%" height="100%">
-    <!-- </router-link> -->
-
     <v-layout justify-center>
       <v-flex xs4>
         <a href="https://www.instagram.com/urbanskillsoficial/" target="_blank">
@@ -26,7 +23,7 @@
         </a>
       </v-flex>
     </v-layout>
-    <v-layout align-center column>
+    <v-layout align-center column v-if="videos.length !=0">
       <iframe
         name="play"
         width="300"
@@ -38,9 +35,11 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <v-flex xs12 id="titulo"></v-flex>
+      <v-flex xs12 id="titulo">
+        <h2 class="titulovideo">{{titulo}}</h2>
+      </v-flex>
     </v-layout>
-    <v-layout justify-center>
+    <v-layout justify-center v-if="videos.length !=0">
       <v-carousel class="carouselvideos" height="150" :cycle="false">
         <v-carousel-item v-for="(item,name) in carousel()" :key="name">
           <v-layout justify-center row align-center>
@@ -50,7 +49,7 @@
               target="play"
               :key="video.snippet.title"
               v-for="video in item"
-              @click="cambiartitulo()"
+              @click="cambiartitulo(video.snippet.title)"
             >
               <img
                 width="100"
@@ -73,7 +72,8 @@ export default {
     videos: [],
     url:
       "https://www.googleapis.com/youtube/v3/activities?part=snippet&channelId=UCJ6f-Cjc8fWi-EKIZ1zHIWQ&maxResults=12&key=AIzaSyBz_jq_T4ahYmK0UlkpyfYkX4W-5m6PDl0",
-    numeroVideos: 3
+    numeroVideos: 3,
+    titulo: ""
   }),
   methods: {
     getData() {
@@ -82,6 +82,7 @@ export default {
         .then(data => {
           this.videos = data.items;
           this.carousel();
+          this.cambiartitulo(this.videos[0].snippet.title);
         });
     },
     getId(video) {
@@ -89,10 +90,8 @@ export default {
         video.snippet.thumbnails.default.url.split("/")[4]
       }`;
     },
-    cambiartitulo() {
-      let h1 = document.createElement("h1");
-      h1.append(videos.snippet.title);
-      document.getElementById("titulo").append(h1);
+    cambiartitulo(titulo) {
+      this.titulo = titulo;
     },
 
     carousel() {
@@ -141,5 +140,6 @@ export default {
   margin-top: 20px;
   color: white;
   font-family: "Lobster", cursive;
+  text-align: center;
 }
 </style>
