@@ -22,7 +22,7 @@
                 <img class="portada" :src="require('./assets/ImagenesHome/Portada.png')">
               </v-toolbar-title>
               <v-spacer></v-spacer>
-              <v-btn fab small color="#ccb803" dark href="javascript:history.back()">
+              <v-btn fab small color="#ffa600" dark href="javascript:history.back()">
                 <v-icon dark>arrow_back</v-icon>
               </v-btn>
             </v-toolbar>
@@ -137,7 +137,7 @@
         </v-flex>
 
         <router-view></router-view>
-        <v-btn fab bottom right fixed small color="#ccb803" dark href="#top" class="toTop">
+        <v-btn fab bottom right fixed small color="#ffa600" dark href="#top" class="toTop">
           <v-icon dark>keyboard_arrow_up</v-icon>
         </v-btn>
 

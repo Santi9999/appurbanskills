@@ -38,6 +38,11 @@
       <v-flex xs12 id="titulo">
         <h2 class="titulovideo">{{titulo}}</h2>
       </v-flex>
+      <v-flex xs6>
+        <a href="https://www.youtube.com/urbanskillsoficial" target="_blank">
+          <img src="../assets/ImagenesHome/suscribete.png" width="150" height="40">
+        </a>
+      </v-flex>
     </v-layout>
     <v-layout justify-center v-if="videos.length !=0">
       <v-carousel class="carouselvideos" height="150" :cycle="false">
@@ -62,6 +67,20 @@
         </v-carousel-item>
       </v-carousel>
     </v-layout>
+    <h1 class="titulolistas">
+      <u>Listas De Reproducción</u>
+    </h1>
+    <v-card v-for="lista in listas" :key="lista.snippet.title">
+      <a :href="getListId(lista)" target="blank">
+        <v-img :src="lista.snippet.thumbnails.high.url" height="100px"></v-img>
+      </a>
+
+      <v-card-title primary-title>
+        <div>
+          <div class="listas">{{lista.snippet.title}}</div>
+        </div>
+      </v-card-title>
+    </v-card>
   </v-container>
 </template>
 
@@ -73,7 +92,10 @@ export default {
     url:
       "https://www.googleapis.com/youtube/v3/activities?part=snippet&channelId=UCJ6f-Cjc8fWi-EKIZ1zHIWQ&maxResults=12&key=AIzaSyBz_jq_T4ahYmK0UlkpyfYkX4W-5m6PDl0",
     numeroVideos: 3,
-    titulo: ""
+    titulo: "",
+    listas: [],
+    url2:
+      "https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=UCJ6f-Cjc8fWi-EKIZ1zHIWQ&maxResults=50&key=AIzaSyBz_jq_T4ahYmK0UlkpyfYkX4W-5m6PDl0"
   }),
   methods: {
     getData() {
@@ -89,6 +111,18 @@ export default {
       return `https://www.youtube.com/embed/${
         video.snippet.thumbnails.default.url.split("/")[4]
       }`;
+    },
+    getListId(lista) {
+      return `https://www.youtube.com/watch?v=${
+        lista.snippet.thumbnails.default.url.split("/")[4]
+      }&list=${lista.id}`;
+    },
+    getList() {
+      fetch(this.url2)
+        .then(json => json.json())
+        .then(data => {
+          this.listas = data.items;
+        });
     },
     cambiartitulo(titulo) {
       this.titulo = titulo;
@@ -112,6 +146,7 @@ export default {
   computed: {},
   created() {
     this.getData();
+    this.getList();
   }
 };
 </script>
@@ -133,13 +168,32 @@ export default {
 }
 
 .carouselvideos {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .titulovideo {
-  margin-top: 20px;
+  margin-top: 10px;
   color: white;
   font-family: "Lobster", cursive;
   text-align: center;
+}
+
+.titulolistas {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  color: white;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+
+.listas {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 16px;
+}
+
+.v-card__title.v-card__title--primary {
+  padding-top: 0;
+  padding-bottom: 50px;
 }
 </style>
