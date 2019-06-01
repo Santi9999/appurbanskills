@@ -103,4 +103,9 @@ export default {
   left: 312px;
   bottom: 71px;
 }
+
+.v-card__title.v-card__title--primary{
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
 </style>
