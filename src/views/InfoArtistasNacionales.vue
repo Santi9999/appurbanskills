@@ -32,6 +32,10 @@
                 <p v-if="artistas[0].grupo != null" class="aka2">{{artistas[0].grupo}}</p>
               </v-flex>
               <v-flex xs12>
+                <h2 v-if="artistas[0].miembros != null" class="aka2">Componentes:</h2>
+                <p v-if="artistas[0].miembros != null" class="aka2">{{artistas[0].miembros}}</p>
+              </v-flex>
+              <v-flex xs12>
                 <h2 v-if="artistas[0].muerte != null" class="aka2">Fecha de Defunción:</h2>
                 <p v-if="artistas[0].muerte != null" class="aka2">{{artistas[0].muerte}}</p>
               </v-flex>
