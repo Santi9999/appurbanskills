@@ -1,8 +1,6 @@
 <template>
   <v-container v-if="artistas.length != 0">
-  
-      <img src="../assets/ImagenesHome/internacional.png" width="100%" height="100%">
-   
+    <img src="../assets/ImagenesHome/internacional.png" width="100%" height="100%">
 
     <v-layout justify-center>
       <v-flex xs4>
@@ -131,5 +129,10 @@ export default {
 
 .v-carousel__controls {
   background-color: rgba(240, 248, 255, 0);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
 }
 </style>

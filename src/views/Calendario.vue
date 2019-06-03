@@ -91,13 +91,13 @@
 
       <v-layout justify-space-between>
         <v-flex sm4 class="text-sm-left text-xs-center">
-          <v-btn @click="$refs.calendar.prev()">
+          <v-btn color="#ffd700" @click="$refs.calendar.prev()">
             <v-icon dark left>keyboard_arrow_left</v-icon>Prev
           </v-btn>
         </v-flex>
 
         <v-flex sm4 class="text-sm-right text-xs-center">
-          <v-btn @click="$refs.calendar.next()">
+          <v-btn color="#ffd700" @click="$refs.calendar.next()">
             Next
             <v-icon right dark>keyboard_arrow_right</v-icon>
           </v-btn>
@@ -189,7 +189,6 @@ export default {
   }),
 
   computed: {
-    // convert the list of events into a map of lists keyed by date
     eventsMap() {
       const map = {};
       this.events.forEach(e => (map[e.date] = map[e.date] || []).push(e));
@@ -265,6 +264,8 @@ export default {
 };
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
 .px-0 {
   display: flex;
   justify-content: center;
@@ -333,6 +334,7 @@ export default {
   justify-content: center;
   margin-top: 20px;
   font-size: 25px;
+  font-family: "Lobster", cursive;
 }
 .v-card__actions {
   margin-bottom: 0;

@@ -1,8 +1,6 @@
 <template>
   <v-container v-if="eventos.length != 0">
-    <!-- <router-link to="/" class="mt-5"> -->
     <img src="../assets/ImagenesHome/eventos.png" width="100%" height="100%">
-    <!-- </router-link> -->
 
     <v-layout justify-center>
       <v-flex xs4>
@@ -91,5 +89,10 @@ export default {
 
 .v-card__actions {
   margin-bottom: 40px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
 }
 </style>

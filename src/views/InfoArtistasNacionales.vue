@@ -138,4 +138,9 @@ export default {
   font-family: "Lobster", cursive;
   text-align: center;
 }
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
 </style>

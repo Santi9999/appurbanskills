@@ -127,4 +127,9 @@ export default {
 .v-carousel__controls {
   background-color: rgba(240, 248, 255, 0);
 }
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
 </style>
