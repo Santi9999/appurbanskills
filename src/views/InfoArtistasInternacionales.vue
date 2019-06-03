@@ -1,9 +1,53 @@
 <template>
   <v-container v-if="artistas.length != 0">
     <v-layout justify-center class="mt-5">
-      <v-flex xs8>
-        <v-img :src="require('../assets/CartasInternacionales/' + artistas[0].carta)"></v-img>
-      </v-flex>
+      <v-card>
+        <v-layout justify-center>
+          <v-flex xs8>
+            <v-img :src="require('../assets/CartasInternacionales/' + artistas[0].carta)"></v-img>
+          </v-flex>
+        </v-layout>
+        <v-card-title primary-title class="mt-3">
+          <v-flex xs12>
+            <v-card color="yellow darken-1">
+              <h1 class="aka">{{artistas[0].aka}}</h1>
+            </v-card>
+          </v-flex>
+          <v-layout column>
+            <v-card color="yellow lighten-2">
+              <v-flex xs12>
+                <h2 class="aka3">Nombre Completo:</h2>
+                <p class="aka2">{{artistas[0].nombre}} {{artistas[0].apellidos}}</p>
+              </v-flex>
+              <v-flex xs12>
+                <h2 class="aka2">Fecha de Nacimiento:</h2>
+                <p class="aka2">{{artistas[0].nacimiento}}</p>
+              </v-flex>
+              <v-flex xs12>
+                <h2 class="aka2">Región:</h2>
+                <p class="aka2">{{artistas[0].region}}</p>
+              </v-flex>
+              <v-flex xs12>
+                <h2 v-if="artistas[0].grupo != null" class="aka2">Pertenece al Grupo:</h2>
+                <p v-if="artistas[0].grupo != null" class="aka2">{{artistas[0].grupo}}</p>
+              </v-flex>
+              <v-flex xs12>
+                <h2 v-if="artistas[0].miembros != null" class="aka2">Componentes:</h2>
+                <p v-if="artistas[0].miembros != null" class="aka2">{{artistas[0].miembros}}</p>
+              </v-flex>
+              <v-flex xs12>
+                <h2 v-if="artistas[0].muerte != null" class="aka2">Fecha de Defunción:</h2>
+                <p v-if="artistas[0].muerte != null" class="aka2">{{artistas[0].muerte}}</p>
+              </v-flex>
+            </v-card>
+          </v-layout>
+        </v-card-title>
+      </v-card>
+    </v-layout>
+    <v-layout justify-center>
+      <h1 class="titulovideo">
+        <u>Trayectoria</u>
+      </h1>
     </v-layout>
     <v-timeline align-top dense clipped dark>
       <v-timeline-item
@@ -56,6 +100,8 @@ export default {
 };
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
 .px-0 {
   display: flex;
   justify-content: center;
@@ -69,5 +115,27 @@ export default {
 
 .v-timeline {
   color: white;
+}
+
+.aka {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+.aka2 {
+  color: black;
+  text-align: center;
+}
+.aka3 {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+.titulovideo {
+  color: white;
+  font-family: "Lobster", cursive;
+  text-align: center;
 }
 </style>
