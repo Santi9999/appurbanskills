@@ -176,6 +176,8 @@ export default {
   background: url("./assets/ImagenesHome/fondourban.jpg");
   background-attachment: fixed;
   background-size: cover;
+  width: 100%;
+  
 }
 
 .xs4 {
