@@ -18,9 +18,12 @@
                   </v-btn>
                 </template>
               </v-menu>
-              <v-toolbar-title>
-                <img class="portada" :src="require('./assets/ImagenesHome/Portada.png')">
-              </v-toolbar-title>
+              <v-layout>
+                <v-toolbar-title>
+                  <v-spacer></v-spacer>
+                  <img class="portada" :src="require('./assets/ImagenesHome/Portada.png')">
+                </v-toolbar-title>
+              </v-layout>
               <v-spacer></v-spacer>
               <v-btn fab small color="#ffa600" dark href="javascript:history.back()">
                 <v-icon dark>arrow_back</v-icon>
@@ -177,7 +180,6 @@ export default {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-  
 }
 
 .xs4 {
@@ -229,5 +231,13 @@ hr {
 
 .menu {
   margin-right: 0;
+}
+
+@media (orientation: landscape) {
+  .portada {
+    padding-left: 50%;
+    z-index: 100;
+    width: 360px;
+  }
 }
 </style>
