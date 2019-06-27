@@ -1,8 +1,6 @@
 <template>
   <v-container>
-    <!-- <router-link to="/" class="mt-5"> -->
     <img src="../assets/ImagenesHome/calendario.png" width="100%" height="100%">
-    <!-- </router-link> -->
 
     <v-layout justify-center>
       <v-flex xs4>
@@ -69,14 +67,9 @@
                   <v-card color="white" min-width="350px" flat>
                     <v-toolbar :class="event.event" dark>
                       <v-toolbar-title v-html="event.title"></v-toolbar-title>
-                      <v-spacer></v-spacer>
-
-                      <v-btn icon>
-                        <v-icon>more_vert</v-icon>
-                      </v-btn>
                     </v-toolbar>
                     <v-card-title primary-title>
-                      <span v-html="event.details"></span>
+                      <p class="negro" v-html="event.details"></p>
                     </v-card-title>
                     <v-card-actions>
                       <v-btn flat color="secondary">Cerrar</v-btn>
@@ -128,70 +121,13 @@ export default {
     ],
     today2: "2019-05-17",
     links: ["Contacto", "¿Quien Somos?"],
-    events: [
-      {
-        title: "Entrevista",
-        details: "Entrevista a Zatu",
-        date: "2019-05-28",
-        open: false,
-        event: "evento"
-      },
-      {
-        title: "Urban Post",
-        details: "Disco de Rapusklei-Pandemia",
-        date: "2018-12-31",
-        open: false,
-        event: "urbanpost"
-      },
-      {
-        title: "Kase O",
-        details: "Trayectoria",
-        date: "2019-06-01",
-        open: false,
-        event: "articulos"
-      },
-      {
-        title: "Entrevista",
-        details: "Hoy con Rapsusklei",
-        date: "2019-10-07",
-        open: false,
-        event: "entrevistas"
-      },
-      {
-        title: "Sismic Shot",
-        details: "Isackese",
-        date: "2019-01-03",
-        open: false,
-        event: "videoclips"
-      },
-      {
-        title: "Evento",
-        details: "Summer Experience 2019",
-        date: "2019-01-01",
-        open: false,
-        event: "evento"
-      },
-      {
-        title: "Evento",
-        details: "Ciclo Hip Hop vol.3",
-        date: "2019-01-21",
-        open: false,
-        event: "evento"
-      },
-      {
-        title: "Entrevista",
-        details: "Hoy con Legendario",
-        date: "2019-02-01",
-        open: false,
-        event: "entrevistas"
-      }
-    ]
+    actividades: []
   }),
 
   computed: {
     eventsMap() {
       const map = {};
-      this.events.forEach(e => (map[e.date] = map[e.date] || []).push(e));
+      this.actividades.forEach(e => (map[e.date] = map[e.date] || []).push(e));
       return map;
     },
     today() {
@@ -207,6 +143,13 @@ export default {
     }
   },
   methods: {
+    getData() {
+      fetch("Calendario.json")
+        .then(json => json.json())
+        .then(data => {
+          this.actividades = data.Calendario;
+        });
+    },
     open(event) {
       alert(event.title);
     },
@@ -260,6 +203,7 @@ export default {
   },
   created() {
     this.month = this.months[new Date().getMonth()];
+    this.getData();
   }
 };
 </script>
@@ -341,5 +285,8 @@ export default {
 }
 .v-card__title.v-card__title--primary {
   justify-content: left;
+}
+.negro {
+  color: black;
 }
 </style>
