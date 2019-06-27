@@ -19,11 +19,11 @@
           >
         </a>
       </v-flex>
-      <v-flex xs4>
+      <!-- <v-flex xs4>
         <a href="https://www.facebook.com/urbanskillsoficial/" target="_blank">
           <img class="botonface" src="../assets/ImagenesHome/face2.png" width="40" height="40">
         </a>
-      </v-flex>
+      </v-flex> -->
     </v-layout>
 
     <v-layout>
