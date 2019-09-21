@@ -121,7 +121,7 @@
                 <hr>
               </v-list>
               <v-list class="pa-1">
-                <v-list-tile to="/urbanpost">
+                <v-list-tile href="https://www.urbanskillsblog.wordpress.com">
                   <v-list-tile-content>
                     <v-list-tile-title>
                       <img
@@ -129,7 +129,7 @@
                         src="./assets/ImagenesHome/6.UrbanPost2.png"
                         width="24"
                         height="24"
-                      >Urban Post
+                      >Urban Blog
                     </v-list-tile-title>
                   </v-list-tile-content>
                 </v-list-tile>
@@ -211,6 +211,9 @@ a.v-list__tile.v-list__tile--link.theme--dark {
 
 .v-list__tile__content {
   font-size: 25px;
+}
+.v-list__tile__title {
+  height: 30px;
 }
 
 .botones {

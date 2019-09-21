@@ -68,14 +68,14 @@
         </router-link>
       </v-flex>
       <v-flex xs6>
-        <router-link to="/urbanpost">
+        <a href="https://www.urbanskillsblog.wordpress.com">
           <img
             class="botones"
-            src="../assets/ImagenesHome/6.UrbanPost.png"
+            src="../assets/ImagenesHome/6.Urbanblog.png"
             width="140"
             height="140"
           >
-        </router-link>
+        </a>
       </v-flex>
     </v-layout>
   </v-container>

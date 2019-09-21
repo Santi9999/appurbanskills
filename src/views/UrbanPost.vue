@@ -34,7 +34,7 @@
               <template v-slot:header>
                 <img :src="require('../assets/Meses/' + name + '.png')">
               </template>
-              <v-card v-for="post in posts[name]">
+              <v-card v-for="post in posts[name]" :key="post.id">
                 <v-img :src="require('../assets/UrbanPost/' + post.foto)" contain></v-img>
 
                 <v-card-title primary-title>
